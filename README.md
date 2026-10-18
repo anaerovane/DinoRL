@@ -1,8 +1,6 @@
 # DinoRL
 
-**Author:** Dong Wuzheng
 
-Copyright (c) 2026 Dong Wuzheng. All rights reserved until December 1, 2026; the project is planned to be released under the MIT License after that date.
 
 A compact reinforcement-learning project for the Chrome T-Rex Runner. The notebook runs the local game in Firefox, loads the included PyTorch policy, evaluates it, and renders a gameplay GIF inline.
 
@@ -44,3 +42,7 @@ These GIFs show three saved gameplay examples from the policy at different train
 Training is disabled by default. Set `RUN_TRAINING = True` in the first code cell to run the 120-second experiment. Training updates stay in memory and do not overwrite or save to `dino_model.pt`; evaluation and the demo load the supplied checkpoint.
 
 The bundled T-Rex Runner files retain their original BSD 3-Clause license in `t-rex-runner-gh-pages/LICENSE`.
+
+**Author:** Dong Wuzheng
+
+Copyright (c) 2026 Dong Wuzheng. All rights reserved until December 1, 2026; the project is planned to be released under the MIT License after that date.

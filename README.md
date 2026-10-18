@@ -1,25 +1,42 @@
-# DinoRL In-Memory Notebook
+# DinoRL
 
-A compact, reproducible Chrome Dino reinforcement-learning demo. The notebook runs the bundled offline game locally, loads the included PyTorch checkpoint, evaluates the policy, and renders a GIF in the notebook output.
+A compact reinforcement-learning project for the Chrome T-Rex Runner. The notebook runs the local game in Firefox, loads the included PyTorch policy, evaluates it, and renders a gameplay GIF inline.
 
 ## Quick start
 
 1. Install Python 3.10+ and Firefox.
-2. Install the Python packages:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Open `dinorl_in_memory.ipynb` from this repository root in Jupyter and run the cells from top to bottom.
+3. Open [`dinorl.ipynb`](dinorl.ipynb) from the repository root in Jupyter and run its cells from top to bottom.
 
-Selenium Manager locates or downloads the matching geckodriver when one is not already on PATH. The first browser launch therefore needs internet access if no driver is cached.
+If geckodriver is not already on `PATH`, Selenium Manager locates or downloads a matching driver on first browser launch.
 
-## Files
+## Training progress
 
-- `dinorl_in_memory.ipynb`: game wrapper, DQN implementation, optional in-memory training, checkpoint evaluation, and GIF demonstration.
-- `dino_model.pt`: pretrained PyTorch checkpoint used by default.
-- `t-rex-runner-gh-pages/`: only the local game page, controller script, and two offline sprite sheets required by the notebook.
-- `requirements.txt`: Python dependencies.
+These GIFs show three saved gameplay examples from the policy at different training stages.
 
-Training is disabled by default. Set `RUN_TRAINING = True` in the first code cell to run the 120-second experiment. Training updates remain in memory and do not overwrite or save to `dino_model.pt`; evaluation and the demo load the supplied checkpoint.
+### Early training — `123.gif`
 
-The included T-Rex Runner files retain their original BSD 3-Clause license in `t-rex-runner-gh-pages/LICENSE`.
+![Dino agent shortly after training begins](results/123.gif)
+
+### Mid-training — `5716.gif`
+
+![Dino agent around the middle of training](results/5716.gif)
+
+### Final policy — `dino_score_2191.gif`
+
+![Dino agent using the final policy checkpoint](results/dino_score_2191.gif)
+
+## Repository files
+
+- [`dinorl.ipynb`](dinorl.ipynb): game wrapper, DQN model, optional in-memory training, evaluation, and inline demo.
+- [`dino_model.pt`](dino_model.pt): supplied pretrained PyTorch checkpoint.
+- [`t-rex-runner-gh-pages/`](t-rex-runner-gh-pages/): the game page, controller, license, and required offline sprite sheets.
+- [`requirements.txt`](requirements.txt): Python dependencies.
+- [`results/`](results/): the three gameplay GIFs shown above.
+
+Training is disabled by default. Set `RUN_TRAINING = True` in the first code cell to run the 120-second experiment. Training updates stay in memory and do not overwrite or save to `dino_model.pt`; evaluation and the demo load the supplied checkpoint.
+
+The bundled T-Rex Runner files retain their original BSD 3-Clause license in `t-rex-runner-gh-pages/LICENSE`.

@@ -1,5 +1,7 @@
 # DinoRL
 
+**Author:** Dong Wuzheng
+
 A compact reinforcement-learning project for the Chrome T-Rex Runner. The notebook runs the local game in Firefox, loads the included PyTorch policy, evaluates it, and renders a gameplay GIF inline.
 
 ## Quick start

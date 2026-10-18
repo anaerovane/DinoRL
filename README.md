@@ -2,6 +2,8 @@
 
 **Author:** Dong Wuzheng
 
+Copyright (c) 2026 Dong Wuzheng. All rights reserved until December 1, 2026; the project is planned to be released under the MIT License after that date.
+
 A compact reinforcement-learning project for the Chrome T-Rex Runner. The notebook runs the local game in Firefox, loads the included PyTorch policy, evaluates it, and renders a gameplay GIF inline.
 
 ## Quick start

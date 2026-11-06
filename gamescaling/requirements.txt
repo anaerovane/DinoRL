@@ -1,0 +1,11 @@
+torch>=2.15
+torchvision>=0.29
+transformers>=5.22
+peft>=0.21
+accelerate>=1.15
+selenium>=4.20
+numpy>=1.24
+pillow>=10.0
+requests>=2.31
+ipython>=9
+flash-linear-attention

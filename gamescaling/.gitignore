@@ -1,0 +1,10 @@
+# weights / cloned projects / outputs are never committed
+model/
+DinoRL/
+GameScaling-client/
+results/
+gamescaling_results/
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,17 @@
+name,axis,anchor,n,eval_mean,delta_vs_anchor,median,std,min,max,train_best
+ppo_vision,anchor,-,50,2918.72,,2995.0,373.71,1071.0,2995.0,2192.0
+state_dqn,anchor,-,50,1879.54,,1904.5,1019.34,248.0,2995.0,2103.0
+abl_ppo_noent,ppo_component,ppo_vision,50,1632.84,-1285.88,1430.5,800.09,101.0,2995.0,2078.0
+abl_ppo_nogae,ppo_component,ppo_vision,50,744.06,-2174.66,461.0,715.85,68.0,2995.0,2235.0
+abl_ppo_nonorm,ppo_component,ppo_vision,50,2707.3,-211.42,2995.0,708.59,219.0,2995.0,140.0
+abl_ppo_clip01,ppo_component,ppo_vision,50,1716.2,-1202.52,1601.0,1159.52,45.0,2995.0,70.0
+abl_state_notype,state_feature,state_dqn,50,1284.48,-595.06,911.5,979.91,150.0,2995.0,2016.0
+abl_state_notrex,state_feature,state_dqn,,,,,,,,190.0
+abl_state_noheight,state_feature,state_dqn,50,1936.78,57.24,2699.0,1163.19,65.0,2995.0,
+abl_state_distonly,state_feature,state_dqn,,,,,,,,1087.0
+abl_obs_stack1,observation,ppo_vision,50,2639.88,-278.84,2995.0,757.31,144.0,2995.0,
+abl_obs_stack2,observation,ppo_vision,50,2031.62,-887.1,2191.0,823.58,61.0,2995.0,
+abl_obs_res64,observation,ppo_vision,50,2224.34,-694.38,2122.5,415.8,533.0,2995.0,
+abl_rew_nostep,reward,ppo_vision,50,1948.72,-970.0,2145.0,930.4,61.0,2995.0,
+abl_rew_nopenalty,reward,ppo_vision,50,1644.8,-1273.92,1440.0,1049.7,116.0,2995.0,
+abl_rew_sparse,reward,ppo_vision,50,2995.0,76.28,2995.0,0.0,2995.0,2995.0,

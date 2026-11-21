@@ -1,0 +1,825 @@
+01:39:08 start algo=c51 obs=vision name=c51_vision frames_budget=2230000 n_envs=4 device=cuda
+01:39:08 spawning environments...
+01:39:14 4 envs ready
+01:39:16 all envs reset
+01:39:20 ep=1 score=44 best=44 frames=1326 upd=0 sp=351f/s
+01:39:20 ep=2 score=45 best=45 frames=1333 upd=0 sp=342f/s
+01:39:21 ep=3 score=54 best=54 frames=1567 upd=0 sp=342f/s
+01:39:24 ep=8 score=57 best=57 frames=2980 upd=0 sp=351f/s
+01:39:25 round=200 frames=3188 upd=0 best=57 replay=800 speed=348 f/s
+01:39:41 ep=10 score=55 best=57 frames=4519 upd=272 sp=179f/s
+01:39:50 ep=11 score=62 best=62 frames=4785 upd=400 sp=139f/s
+01:39:51 ep=12 score=66 best=66 frames=4797 upd=408 sp=136f/s
+01:40:36 round=400 frames=6381 upd=1208 best=66 replay=1600 speed=80 f/s
+01:41:18 ep=20 score=50 best=66 frames=7954 upd=1992 sp=65f/s
+01:42:01 round=600 frames=9573 upd=2808 best=66 replay=2400 speed=58 f/s
+01:43:00 ep=30 score=51 best=66 frames=11830 upd=3936 sp=53f/s
+01:43:24 round=800 frames=12768 upd=4408 best=66 replay=3200 speed=51 f/s
+01:44:15 ep=37 score=67 best=67 frames=14720 upd=5384 sp=49f/s
+01:44:29 ep=40 score=52 best=67 frames=15254 upd=5648 sp=49f/s
+01:44:48 round=1000 frames=15958 upd=6008 best=67 replay=4000 speed=48 f/s
+01:45:30 ep=43 score=99 best=99 frames=17512 upd=6784 sp=47f/s
+01:46:05 ep=46 score=130 best=130 frames=18846 upd=7448 sp=46f/s
+01:46:13 round=1200 frames=19150 upd=7608 best=130 replay=4800 speed=46 f/s
+01:46:52 ep=50 score=65 best=130 frames=20711 upd=8384 sp=45f/s
+01:47:37 round=1400 frames=22338 upd=9208 best=130 replay=5600 speed=45 f/s
+01:48:52 ep=60 score=82 best=130 frames=25179 upd=10624 sp=44f/s
+01:49:02 round=1600 frames=25531 upd=10808 best=130 replay=6400 speed=44 f/s
+01:50:22 round=1800 frames=28725 upd=12408 best=130 replay=7200 speed=43 f/s
+01:50:58 ep=70 score=50 best=130 frames=30203 upd=13144 sp=43f/s
+01:51:42 round=2000 frames=31922 upd=14008 best=130 replay=8000 speed=43 f/s
+01:52:41 ep=80 score=61 best=130 frames=34283 upd=15184 sp=43f/s
+01:53:01 round=2200 frames=35114 upd=15608 best=130 replay=8800 speed=43 f/s
+01:54:21 round=2400 frames=38308 upd=17208 best=130 replay=9600 speed=42 f/s
+01:54:31 ep=90 score=78 best=130 frames=38752 upd=17424 sp=42f/s
+01:55:41 round=2600 frames=41502 upd=18808 best=130 replay=10400 speed=42 f/s
+01:56:36 ep=100 score=60 best=130 frames=43693 upd=19904 sp=42f/s
+01:57:02 round=2800 frames=44693 upd=20408 best=130 replay=11200 speed=42 f/s
+01:58:23 round=3000 frames=47884 upd=22008 best=130 replay=12000 speed=42 f/s
+01:59:22 ep=110 score=97 best=130 frames=50141 upd=23136 sp=42f/s
+01:59:46 round=3200 frames=51074 upd=23608 best=130 replay=12800 speed=42 f/s
+02:01:00 ep=120 score=60 best=130 frames=53965 upd=25056 sp=41f/s
+02:01:07 round=3400 frames=54261 upd=25208 best=130 replay=13600 speed=41 f/s
+02:02:30 round=3600 frames=57450 upd=26808 best=130 replay=14400 speed=41 f/s
+02:03:14 ep=130 score=86 best=130 frames=59162 upd=27664 sp=41f/s
+02:03:52 round=3800 frames=60644 upd=28408 best=130 replay=15200 speed=41 f/s
+02:04:54 ep=140 score=43 best=130 frames=63025 upd=29600 sp=41f/s
+02:05:15 round=4000 frames=63837 upd=30008 best=130 replay=16000 speed=41 f/s
+02:06:11 ep=145 score=142 best=142 frames=66004 upd=31088 sp=41f/s
+02:06:38 round=4200 frames=67032 upd=31608 best=142 replay=16800 speed=41 f/s
+02:07:27 ep=150 score=69 best=142 frames=68901 upd=32536 sp=41f/s
+02:08:02 round=4400 frames=70229 upd=33208 best=142 replay=17600 speed=41 f/s
+02:09:25 ep=160 score=43 best=142 frames=73392 upd=34792 sp=41f/s
+02:09:26 round=4600 frames=73416 upd=34808 best=142 replay=18400 speed=41 f/s
+02:10:49 round=4800 frames=76606 upd=36408 best=142 replay=19200 speed=40 f/s
+02:11:40 ep=170 score=101 best=142 frames=78532 upd=37368 sp=40f/s
+02:12:13 round=5000 frames=79804 upd=38008 best=142 replay=20000 speed=40 f/s
+02:13:38 round=5200 frames=82995 upd=39608 best=142 replay=20800 speed=40 f/s
+02:14:02 ep=180 score=61 best=142 frames=84094 upd=40152 sp=40f/s
+02:14:39 round=5400 frames=86190 upd=41208 best=142 replay=21600 speed=41 f/s
+02:15:17 ep=190 score=51 best=142 frames=88333 upd=42280 sp=41f/s
+02:15:36 round=5600 frames=89380 upd=42808 best=142 replay=22400 speed=41 f/s
+02:16:32 round=5800 frames=92573 upd=44408 best=142 replay=23200 speed=41 f/s
+02:16:42 ep=198 score=160 best=160 frames=93175 upd=44704 sp=41f/s
+02:17:06 ep=200 score=97 best=160 frames=94541 upd=45392 sp=42f/s
+02:17:28 round=6000 frames=95767 upd=46008 best=160 replay=24000 speed=42 f/s
+02:18:24 round=6200 frames=98963 upd=47608 best=160 replay=24800 speed=42 f/s
+02:19:17 ep=210 score=230 best=230 frames=102053 upd=49152 sp=42f/s
+02:19:20 round=6400 frames=102157 upd=49208 best=230 replay=25600 speed=43 f/s
+02:20:16 round=6600 frames=105356 upd=50808 best=230 replay=26400 speed=43 f/s
+02:21:12 round=6800 frames=108551 upd=52408 best=230 replay=27200 speed=43 f/s
+02:21:16 ep=220 score=72 best=230 frames=108745 upd=52504 sp=43f/s
+02:22:08 round=7000 frames=111744 upd=54008 best=230 replay=28000 speed=43 f/s
+02:22:44 ep=230 score=76 best=230 frames=113780 upd=55024 sp=44f/s
+02:23:05 round=7200 frames=114943 upd=55608 best=230 replay=28800 speed=44 f/s
+02:24:02 round=7400 frames=118135 upd=57208 best=230 replay=29600 speed=44 f/s
+02:24:30 ep=240 score=59 best=230 frames=119749 upd=58008 sp=44f/s
+02:24:59 round=7600 frames=121330 upd=58808 best=230 replay=30400 speed=44 f/s
+02:25:54 round=7800 frames=124519 upd=60408 best=230 replay=31200 speed=45 f/s
+02:25:56 ep=250 score=44 best=230 frames=124629 upd=60456 sp=45f/s
+02:26:51 round=8000 frames=127712 upd=62008 best=230 replay=32000 speed=45 f/s
+02:27:22 ep=260 score=76 best=230 frames=129485 upd=62896 sp=45f/s
+02:27:47 round=8200 frames=130903 upd=63608 best=230 replay=32800 speed=45 f/s
+02:28:43 round=8400 frames=134098 upd=65208 best=230 replay=33600 speed=45 f/s
+02:29:15 ep=270 score=127 best=230 frames=135952 upd=66128 sp=45f/s
+02:29:40 round=8600 frames=137291 upd=66808 best=230 replay=34400 speed=45 f/s
+02:30:36 round=8800 frames=140483 upd=68408 best=230 replay=35200 speed=46 f/s
+02:30:43 ep=280 score=161 best=230 frames=140825 upd=68576 sp=46f/s
+02:31:33 round=9000 frames=143679 upd=70008 best=230 replay=36000 speed=46 f/s
+02:32:29 round=9200 frames=146872 upd=71608 best=230 replay=36800 speed=46 f/s
+02:32:31 ep=290 score=53 best=230 frames=146954 upd=71648 sp=46f/s
+02:33:25 round=9400 frames=150066 upd=73208 best=230 replay=37600 speed=46 f/s
+02:34:08 ep=297 score=255 best=255 frames=152545 upd=74440 sp=46f/s
+02:34:21 round=9600 frames=153265 upd=74808 best=255 replay=38400 speed=46 f/s
+02:34:44 ep=300 score=144 best=255 frames=154613 upd=75480 sp=46f/s
+02:35:17 round=9800 frames=156464 upd=76408 best=255 replay=39200 speed=47 f/s
+02:36:13 round=10000 frames=159657 upd=78008 best=255 replay=40000 speed=47 f/s
+02:36:18 ep=310 score=109 best=255 frames=159957 upd=78152 sp=47f/s
+02:37:10 round=10200 frames=162848 upd=79608 best=255 replay=40800 speed=47 f/s
+02:37:47 ep=320 score=112 best=255 frames=165022 upd=80696 sp=47f/s
+02:38:05 round=10400 frames=166042 upd=81208 best=255 replay=41600 speed=47 f/s
+02:39:02 round=10600 frames=169234 upd=82808 best=255 replay=42400 speed=47 f/s
+02:39:38 ep=330 score=64 best=255 frames=171252 upd=83816 sp=47f/s
+02:39:59 round=10800 frames=172426 upd=84408 best=255 replay=43200 speed=47 f/s
+02:40:55 round=11000 frames=175626 upd=86008 best=255 replay=44000 speed=47 f/s
+02:41:52 round=11200 frames=178820 upd=87608 best=255 replay=44800 speed=48 f/s
+02:41:52 ep=340 score=65 best=255 frames=178836 upd=87608 sp=48f/s
+02:42:49 round=11400 frames=182020 upd=89208 best=255 replay=45600 speed=48 f/s
+02:43:43 ep=350 score=111 best=255 frames=185101 upd=90744 sp=48f/s
+02:43:46 round=11600 frames=185213 upd=90808 best=255 replay=46400 speed=48 f/s
+02:44:43 round=11800 frames=188411 upd=92408 best=255 replay=47200 speed=48 f/s
+02:45:23 ep=360 score=43 best=255 frames=190655 upd=93528 sp=48f/s
+02:45:39 round=12000 frames=191607 upd=94008 best=255 replay=48000 speed=48 f/s
+02:46:36 round=12200 frames=194804 upd=95608 best=255 replay=48800 speed=48 f/s
+02:47:13 ep=370 score=83 best=255 frames=196892 upd=96648 sp=48f/s
+02:47:33 round=12400 frames=197998 upd=97208 best=255 replay=49600 speed=48 f/s
+02:48:30 round=12600 frames=201193 upd=98808 best=255 replay=50000 speed=48 f/s
+02:49:00 ep=380 score=78 best=255 frames=202885 upd=99648 sp=48f/s
+02:49:27 round=12800 frames=204391 upd=100408 best=255 replay=50000 speed=49 f/s
+02:50:23 round=13000 frames=207583 upd=102008 best=255 replay=50000 speed=49 f/s
+02:50:45 ep=390 score=75 best=255 frames=208822 upd=102624 sp=49f/s
+02:51:20 round=13200 frames=210774 upd=103608 best=255 replay=50000 speed=49 f/s
+02:52:18 round=13400 frames=213973 upd=105208 best=255 replay=50000 speed=49 f/s
+02:52:49 ep=400 score=58 best=255 frames=215727 upd=106080 sp=49f/s
+02:53:15 round=13600 frames=217166 upd=106808 best=255 replay=50000 speed=49 f/s
+02:54:11 round=13800 frames=220362 upd=108408 best=255 replay=50000 speed=49 f/s
+02:54:40 ep=410 score=96 best=255 frames=222055 upd=109248 sp=49f/s
+02:55:07 round=14000 frames=223559 upd=110008 best=255 replay=50000 speed=49 f/s
+02:56:04 round=14200 frames=226757 upd=111608 best=255 replay=50000 speed=49 f/s
+02:57:00 round=14400 frames=229957 upd=113208 best=255 replay=50000 speed=49 f/s
+02:57:05 ep=420 score=104 best=255 frames=230274 upd=113360 sp=49f/s
+02:57:56 round=14600 frames=233149 upd=114808 best=255 replay=50000 speed=49 f/s
+02:58:44 ep=430 score=44 best=255 frames=235945 upd=116200 sp=49f/s
+02:58:51 round=14800 frames=236345 upd=116408 best=255 replay=50000 speed=49 f/s
+02:59:47 round=15000 frames=239542 upd=118008 best=255 replay=50000 speed=50 f/s
+03:00:29 ep=440 score=102 best=255 frames=241995 upd=119232 sp=50f/s
+03:00:42 round=15200 frames=242737 upd=119608 best=255 replay=50000 speed=50 f/s
+03:01:36 round=15400 frames=245937 upd=121208 best=255 replay=50000 speed=50 f/s
+03:02:32 round=15600 frames=249135 upd=122808 best=255 replay=50000 speed=50 f/s
+03:02:42 ep=450 score=102 best=255 frames=249749 upd=123112 sp=50f/s
+03:03:27 round=15800 frames=252328 upd=124408 best=255 replay=50000 speed=50 f/s
+03:04:22 round=16000 frames=255524 upd=126008 best=255 replay=50000 speed=50 f/s
+03:04:50 ep=460 score=59 best=255 frames=257159 upd=126824 sp=50f/s
+03:05:17 round=16200 frames=258717 upd=127608 best=255 replay=50000 speed=50 f/s
+03:06:12 round=16400 frames=261913 upd=129208 best=255 replay=50000 speed=50 f/s
+03:06:16 ep=467 score=384 best=384 frames=262169 upd=129328 sp=50f/s
+03:07:00 ep=470 score=171 best=384 frames=264725 upd=130608 sp=50f/s
+03:07:07 round=16600 frames=265113 upd=130808 best=384 replay=50000 speed=50 f/s
+03:08:03 round=16800 frames=268309 upd=132408 best=384 replay=50000 speed=50 f/s
+03:08:59 round=17000 frames=271504 upd=134008 best=384 replay=50000 speed=50 f/s
+03:09:02 ep=480 score=303 best=384 frames=271687 upd=134096 sp=50f/s
+03:09:53 round=17200 frames=274694 upd=135608 best=384 replay=50000 speed=51 f/s
+03:10:36 ep=490 score=55 best=384 frames=277175 upd=136848 sp=51f/s
+03:10:48 round=17400 frames=277886 upd=137208 best=384 replay=50000 speed=51 f/s
+03:11:43 round=17600 frames=281079 upd=138808 best=384 replay=50000 speed=51 f/s
+03:12:23 ep=500 score=135 best=384 frames=283420 upd=139976 sp=51f/s
+03:12:38 round=17800 frames=284272 upd=140408 best=384 replay=50000 speed=51 f/s
+03:13:33 round=18000 frames=287471 upd=142008 best=384 replay=50000 speed=51 f/s
+03:14:28 round=18200 frames=290668 upd=143608 best=384 replay=50000 speed=51 f/s
+03:14:36 ep=510 score=105 best=384 frames=291154 upd=143848 sp=51f/s
+03:15:23 round=18400 frames=293860 upd=145208 best=384 replay=50000 speed=51 f/s
+03:15:43 ep=520 score=43 best=384 frames=295011 upd=145784 sp=51f/s
+03:16:18 round=18600 frames=297053 upd=146808 best=384 replay=50000 speed=51 f/s
+03:17:12 round=18800 frames=300249 upd=148408 best=384 replay=50000 speed=51 f/s
+03:17:36 ep=530 score=178 best=384 frames=301628 upd=149096 sp=51f/s
+03:18:08 round=19000 frames=303445 upd=150008 best=384 replay=50000 speed=51 f/s
+03:19:02 round=19200 frames=306639 upd=151608 best=384 replay=50000 speed=51 f/s
+03:19:13 ep=540 score=62 best=384 frames=307288 upd=151928 sp=51f/s
+03:19:56 round=19400 frames=309831 upd=153208 best=384 replay=50000 speed=51 f/s
+03:20:51 round=19600 frames=313029 upd=154808 best=384 replay=50000 speed=51 f/s
+03:21:16 ep=550 score=98 best=384 frames=314518 upd=155552 sp=51f/s
+03:21:46 round=19800 frames=316226 upd=156408 best=384 replay=50000 speed=51 f/s
+03:22:40 round=20000 frames=319420 upd=158008 best=384 replay=50000 speed=51 f/s
+03:23:08 ep=560 score=134 best=384 frames=321041 upd=158816 sp=52f/s
+03:23:35 round=20200 frames=322613 upd=159608 best=384 replay=50000 speed=52 f/s
+03:24:30 round=20400 frames=325806 upd=161208 best=384 replay=50000 speed=52 f/s
+03:24:38 ep=570 score=91 best=384 frames=326264 upd=161432 sp=52f/s
+03:25:26 round=20600 frames=329002 upd=162808 best=384 replay=50000 speed=52 f/s
+03:26:22 round=20800 frames=332193 upd=164408 best=384 replay=50000 speed=52 f/s
+03:26:28 ep=580 score=94 best=384 frames=332547 upd=164584 sp=52f/s
+03:27:17 round=21000 frames=335388 upd=166008 best=384 replay=50000 speed=52 f/s
+03:28:07 ep=590 score=61 best=384 frames=338241 upd=167432 sp=52f/s
+03:28:13 round=21200 frames=338585 upd=167608 best=384 replay=50000 speed=52 f/s
+03:29:08 round=21400 frames=341780 upd=169208 best=384 replay=50000 speed=52 f/s
+03:30:03 round=21600 frames=344979 upd=170808 best=384 replay=50000 speed=52 f/s
+03:30:28 ep=600 score=70 best=384 frames=346456 upd=171544 sp=52f/s
+03:30:57 round=21800 frames=348176 upd=172408 best=384 replay=50000 speed=52 f/s
+03:31:52 round=22000 frames=351372 upd=174008 best=384 replay=50000 speed=52 f/s
+03:32:47 round=22200 frames=354564 upd=175608 best=384 replay=50000 speed=52 f/s
+03:32:57 ep=610 score=97 best=384 frames=355160 upd=175904 sp=52f/s
+03:33:42 round=22400 frames=357761 upd=177208 best=384 replay=50000 speed=52 f/s
+03:34:35 ep=620 score=79 best=384 frames=360808 upd=178728 sp=52f/s
+03:34:37 round=22600 frames=360956 upd=178808 best=384 replay=50000 speed=52 f/s
+03:35:31 round=22800 frames=364152 upd=180408 best=384 replay=50000 speed=52 f/s
+03:36:26 round=23000 frames=367348 upd=182008 best=384 replay=50000 speed=52 f/s
+03:36:57 ep=630 score=257 best=384 frames=369151 upd=182904 sp=52f/s
+03:37:21 round=23200 frames=370542 upd=183608 best=384 replay=50000 speed=52 f/s
+03:38:16 round=23400 frames=373736 upd=185208 best=384 replay=50000 speed=52 f/s
+03:38:41 ep=640 score=68 best=384 frames=375187 upd=185928 sp=52f/s
+03:39:11 round=23600 frames=376933 upd=186808 best=384 replay=50000 speed=52 f/s
+03:40:07 round=23800 frames=380123 upd=188408 best=384 replay=50000 speed=52 f/s
+03:40:31 ep=650 score=74 best=384 frames=381568 upd=189128 sp=52f/s
+03:41:02 round=24000 frames=383318 upd=190008 best=384 replay=50000 speed=52 f/s
+03:41:56 round=24200 frames=386516 upd=191608 best=384 replay=50000 speed=53 f/s
+03:42:38 ep=660 score=73 best=384 frames=388984 upd=192840 sp=53f/s
+03:42:50 round=24400 frames=389711 upd=193208 best=384 replay=50000 speed=53 f/s
+03:43:45 round=24600 frames=392906 upd=194808 best=384 replay=50000 speed=53 f/s
+03:44:31 ep=670 score=71 best=384 frames=395560 upd=196136 sp=53f/s
+03:44:40 round=24800 frames=396100 upd=196408 best=384 replay=50000 speed=53 f/s
+03:45:35 round=25000 frames=399300 upd=198008 best=384 replay=50000 speed=53 f/s
+03:46:28 ep=680 score=53 best=384 frames=402363 upd=199544 sp=53f/s
+03:46:30 round=25200 frames=402487 upd=199608 best=384 replay=50000 speed=53 f/s
+03:47:26 round=25400 frames=405682 upd=201208 best=384 replay=50000 speed=53 f/s
+03:47:43 ep=690 score=43 best=384 frames=406660 upd=201696 sp=53f/s
+03:48:22 round=25600 frames=408877 upd=202808 best=384 replay=50000 speed=53 f/s
+03:49:14 ep=700 score=68 best=384 frames=411872 upd=204304 sp=53f/s
+03:49:17 round=25800 frames=412072 upd=204408 best=384 replay=50000 speed=53 f/s
+03:50:12 round=26000 frames=415269 upd=206008 best=384 replay=50000 speed=53 f/s
+03:50:46 ep=710 score=59 best=384 frames=417199 upd=206968 sp=53f/s
+03:51:08 round=26200 frames=418461 upd=207608 best=384 replay=50000 speed=53 f/s
+03:52:02 round=26400 frames=421656 upd=209208 best=384 replay=50000 speed=53 f/s
+03:52:58 round=26600 frames=424856 upd=210808 best=384 replay=50000 speed=53 f/s
+03:53:20 ep=720 score=211 best=384 frames=426168 upd=211456 sp=53f/s
+03:53:53 round=26800 frames=428051 upd=212408 best=384 replay=50000 speed=53 f/s
+03:54:48 round=27000 frames=431246 upd=214008 best=384 replay=50000 speed=53 f/s
+03:55:06 ep=730 score=43 best=384 frames=432265 upd=214512 sp=53f/s
+03:55:44 round=27200 frames=434440 upd=215608 best=384 replay=50000 speed=53 f/s
+03:56:39 round=27400 frames=437638 upd=217208 best=384 replay=50000 speed=53 f/s
+03:57:33 round=27600 frames=440835 upd=218808 best=384 replay=50000 speed=53 f/s
+03:57:47 ep=740 score=67 best=384 frames=441650 upd=219208 sp=53f/s
+03:58:27 round=27800 frames=444031 upd=220408 best=384 replay=50000 speed=53 f/s
+03:59:22 round=28000 frames=447226 upd=222008 best=384 replay=50000 speed=53 f/s
+03:59:53 ep=750 score=53 best=384 frames=449042 upd=222912 sp=53f/s
+04:00:17 round=28200 frames=450422 upd=223608 best=384 replay=50000 speed=53 f/s
+04:01:12 round=28400 frames=453620 upd=225208 best=384 replay=50000 speed=53 f/s
+04:01:45 ep=758 score=423 best=423 frames=455569 upd=226176 sp=53f/s
+04:02:08 round=28600 frames=456815 upd=226808 best=423 replay=50000 speed=53 f/s
+04:02:08 ep=760 score=43 best=423 frames=456823 upd=226808 sp=53f/s
+04:03:03 round=28800 frames=460013 upd=228408 best=423 replay=50000 speed=53 f/s
+04:03:23 ep=770 score=43 best=423 frames=461141 upd=228968 sp=53f/s
+04:03:59 round=29000 frames=463211 upd=230008 best=423 replay=50000 speed=53 f/s
+04:04:54 round=29200 frames=466403 upd=231608 best=423 replay=50000 speed=53 f/s
+04:05:23 ep=780 score=120 best=423 frames=468071 upd=232440 sp=53f/s
+04:05:49 round=29400 frames=469600 upd=233208 best=423 replay=50000 speed=53 f/s
+04:06:43 round=29600 frames=472799 upd=234808 best=423 replay=50000 speed=53 f/s
+04:07:23 ep=790 score=44 best=423 frames=475294 upd=236056 sp=53f/s
+04:07:34 round=29800 frames=475993 upd=236408 best=423 replay=50000 speed=53 f/s
+04:08:25 round=30000 frames=479193 upd=238008 best=423 replay=50000 speed=54 f/s
+04:09:16 round=30200 frames=482390 upd=239608 best=423 replay=50000 speed=54 f/s
+04:09:41 ep=800 score=136 best=423 frames=483974 upd=240392 sp=54f/s
+04:10:07 round=30400 frames=485586 upd=241208 best=423 replay=50000 speed=54 f/s
+04:10:57 round=30600 frames=488777 upd=242808 best=423 replay=50000 speed=54 f/s
+04:11:09 ep=810 score=43 best=423 frames=489565 upd=243200 sp=54f/s
+04:11:48 round=30800 frames=491974 upd=244408 best=423 replay=50000 speed=54 f/s
+04:12:38 round=31000 frames=495170 upd=246008 best=423 replay=50000 speed=54 f/s
+04:13:09 ep=820 score=133 best=423 frames=497158 upd=247000 sp=54f/s
+04:13:29 round=31200 frames=498366 upd=247608 best=423 replay=50000 speed=54 f/s
+04:14:20 round=31400 frames=501563 upd=249208 best=423 replay=50000 speed=54 f/s
+04:15:11 round=31600 frames=504759 upd=250808 best=423 replay=50000 speed=54 f/s
+04:15:37 ep=830 score=45 best=423 frames=506395 upd=251624 sp=54f/s
+04:16:02 round=31800 frames=507952 upd=252408 best=423 replay=50000 speed=54 f/s
+04:16:53 round=32000 frames=511150 upd=254008 best=423 replay=50000 speed=54 f/s
+04:17:28 ep=840 score=207 best=423 frames=513369 upd=255112 sp=54f/s
+04:17:43 round=32200 frames=514349 upd=255608 best=423 replay=50000 speed=54 f/s
+04:18:34 round=32400 frames=517539 upd=257208 best=423 replay=50000 speed=54 f/s
+04:19:25 round=32600 frames=520734 upd=258808 best=423 replay=50000 speed=54 f/s
+04:19:37 ep=850 score=220 best=423 frames=521520 upd=259200 sp=54f/s
+04:20:16 round=32800 frames=523927 upd=260408 best=423 replay=50000 speed=54 f/s
+04:21:07 round=33000 frames=527121 upd=262008 best=423 replay=50000 speed=54 f/s
+04:21:10 ep=860 score=44 best=423 frames=527343 upd=262112 sp=54f/s
+04:21:57 round=33200 frames=530318 upd=263608 best=423 replay=50000 speed=54 f/s
+04:22:48 round=33400 frames=533512 upd=265208 best=423 replay=50000 speed=54 f/s
+04:23:20 ep=870 score=128 best=423 frames=535576 upd=266232 sp=54f/s
+04:23:38 round=33600 frames=536712 upd=266808 best=423 replay=50000 speed=54 f/s
+04:24:29 round=33800 frames=539905 upd=268408 best=423 replay=50000 speed=54 f/s
+04:25:04 ep=880 score=107 best=423 frames=542134 upd=269520 sp=54f/s
+04:25:19 round=34000 frames=543102 upd=270008 best=423 replay=50000 speed=55 f/s
+04:26:10 round=34200 frames=546292 upd=271608 best=423 replay=50000 speed=55 f/s
+04:26:43 ep=890 score=156 best=423 frames=548418 upd=272664 sp=55f/s
+04:27:01 round=34400 frames=549488 upd=273208 best=423 replay=50000 speed=55 f/s
+04:27:51 round=34600 frames=552685 upd=274808 best=423 replay=50000 speed=55 f/s
+04:28:42 ep=900 score=53 best=423 frames=555866 upd=276400 sp=55f/s
+04:28:43 round=34800 frames=555878 upd=276408 best=423 replay=50000 speed=55 f/s
+04:29:33 round=35000 frames=559073 upd=278008 best=423 replay=50000 speed=55 f/s
+04:30:23 ep=910 score=173 best=423 frames=562238 upd=279584 sp=55f/s
+04:30:24 round=35200 frames=562270 upd=279608 best=423 replay=50000 speed=55 f/s
+04:31:14 round=35400 frames=565466 upd=281208 best=423 replay=50000 speed=55 f/s
+04:32:05 round=35600 frames=568659 upd=282808 best=423 replay=50000 speed=55 f/s
+04:32:48 ep=920 score=148 best=423 frames=571387 upd=284168 sp=55f/s
+04:32:56 round=35800 frames=571855 upd=284408 best=423 replay=50000 speed=55 f/s
+04:33:47 round=36000 frames=575046 upd=286008 best=423 replay=50000 speed=55 f/s
+04:34:22 ep=930 score=51 best=423 frames=577196 upd=287080 sp=55f/s
+04:34:39 round=36200 frames=578244 upd=287608 best=423 replay=50000 speed=55 f/s
+04:35:29 round=36400 frames=581440 upd=289208 best=423 replay=50000 speed=55 f/s
+04:36:20 round=36600 frames=584633 upd=290808 best=423 replay=50000 speed=55 f/s
+04:36:30 ep=940 score=131 best=423 frames=585307 upd=291144 sp=55f/s
+04:37:10 round=36800 frames=587829 upd=292408 best=423 replay=50000 speed=55 f/s
+04:38:01 round=37000 frames=591027 upd=294008 best=423 replay=50000 speed=55 f/s
+04:38:36 ep=950 score=86 best=423 frames=593180 upd=295080 sp=55f/s
+04:38:53 round=37200 frames=594224 upd=295608 best=423 replay=50000 speed=55 f/s
+04:39:43 round=37400 frames=597420 upd=297208 best=423 replay=50000 speed=55 f/s
+04:40:34 round=37600 frames=600619 upd=298808 best=423 replay=50000 speed=55 f/s
+04:40:38 ep=960 score=207 best=423 frames=600861 upd=298928 sp=55f/s
+04:41:25 round=37800 frames=603815 upd=300408 best=423 replay=50000 speed=55 f/s
+04:42:15 round=38000 frames=607012 upd=302008 best=423 replay=50000 speed=55 f/s
+04:42:26 ep=970 score=43 best=423 frames=607748 upd=302368 sp=55f/s
+04:43:05 round=38200 frames=610209 upd=303608 best=423 replay=50000 speed=55 f/s
+04:43:56 round=38400 frames=613406 upd=305208 best=423 replay=50000 speed=55 f/s
+04:44:47 round=38600 frames=616604 upd=306808 best=423 replay=50000 speed=55 f/s
+04:44:47 ep=980 score=43 best=423 frames=616638 upd=306824 sp=55f/s
+04:45:37 round=38800 frames=619799 upd=308408 best=423 replay=50000 speed=55 f/s
+04:46:29 round=39000 frames=622992 upd=310008 best=423 replay=50000 speed=55 f/s
+04:47:00 ep=990 score=143 best=423 frames=624948 upd=310984 sp=55f/s
+04:47:19 round=39200 frames=626190 upd=311608 best=423 replay=50000 speed=55 f/s
+04:48:10 round=39400 frames=629390 upd=313208 best=423 replay=50000 speed=56 f/s
+04:49:00 round=39600 frames=632588 upd=314808 best=423 replay=50000 speed=56 f/s
+04:49:07 ep=1000 score=66 best=423 frames=633005 upd=315016 sp=56f/s
+04:49:51 round=39800 frames=635778 upd=316408 best=423 replay=50000 speed=56 f/s
+04:50:41 round=40000 frames=638976 upd=318008 best=423 replay=50000 speed=56 f/s
+04:50:47 ep=1010 score=105 best=423 frames=639338 upd=318184 sp=56f/s
+04:51:31 round=40200 frames=642173 upd=319608 best=423 replay=50000 speed=56 f/s
+04:52:22 round=40400 frames=645373 upd=321208 best=423 replay=50000 speed=56 f/s
+04:52:55 ep=1020 score=365 best=423 frames=647441 upd=322240 sp=56f/s
+04:53:13 round=40600 frames=648573 upd=322808 best=423 replay=50000 speed=56 f/s
+04:54:03 round=40800 frames=651769 upd=324408 best=423 replay=50000 speed=56 f/s
+04:54:54 round=41000 frames=654967 upd=326008 best=423 replay=50000 speed=56 f/s
+04:55:41 ep=1030 score=129 best=423 frames=657938 upd=327488 sp=56f/s
+04:55:45 round=41200 frames=658166 upd=327608 best=423 replay=50000 speed=56 f/s
+04:56:35 round=41400 frames=661362 upd=329208 best=423 replay=50000 speed=56 f/s
+04:57:26 round=41600 frames=664560 upd=330808 best=423 replay=50000 speed=56 f/s
+04:58:08 ep=1040 score=72 best=423 frames=667172 upd=332112 sp=56f/s
+04:58:17 round=41800 frames=667756 upd=332408 best=423 replay=50000 speed=56 f/s
+04:59:07 round=42000 frames=670949 upd=334008 best=423 replay=50000 speed=56 f/s
+04:59:58 round=42200 frames=674141 upd=335608 best=423 replay=50000 speed=56 f/s
+05:00:15 ep=1050 score=147 best=423 frames=675241 upd=336152 sp=56f/s
+05:00:48 round=42400 frames=677341 upd=337208 best=423 replay=50000 speed=56 f/s
+05:01:39 round=42600 frames=680536 upd=338808 best=423 replay=50000 speed=56 f/s
+05:02:30 round=42800 frames=683729 upd=340408 best=423 replay=50000 speed=56 f/s
+05:02:50 ep=1060 score=130 best=423 frames=685012 upd=341048 sp=56f/s
+05:03:20 round=43000 frames=686923 upd=342008 best=423 replay=50000 speed=56 f/s
+05:04:11 round=43200 frames=690121 upd=343608 best=423 replay=50000 speed=56 f/s
+05:05:02 round=43400 frames=693319 upd=345208 best=423 replay=50000 speed=56 f/s
+05:05:49 ep=1070 score=66 best=423 frames=696304 upd=346696 sp=56f/s
+05:05:52 round=43600 frames=696512 upd=346808 best=423 replay=50000 speed=56 f/s
+05:06:43 round=43800 frames=699707 upd=348408 best=423 replay=50000 speed=56 f/s
+05:07:34 round=44000 frames=702902 upd=350008 best=423 replay=50000 speed=56 f/s
+05:07:48 ep=1080 score=205 best=423 frames=703838 upd=350472 sp=56f/s
+05:08:25 round=44200 frames=706098 upd=351608 best=423 replay=50000 speed=56 f/s
+05:09:16 round=44400 frames=709294 upd=353208 best=423 replay=50000 speed=56 f/s
+05:10:07 round=44600 frames=712492 upd=354808 best=423 replay=50000 speed=56 f/s
+05:10:08 ep=1090 score=322 best=423 frames=712567 upd=354840 sp=56f/s
+05:10:56 round=44800 frames=715686 upd=356408 best=423 replay=50000 speed=56 f/s
+05:11:47 round=45000 frames=718884 upd=358008 best=423 replay=50000 speed=56 f/s
+05:12:37 round=45200 frames=722084 upd=359608 best=423 replay=50000 speed=56 f/s
+05:13:15 ep=1100 score=60 best=423 frames=724537 upd=360832 sp=56f/s
+05:13:27 round=45400 frames=725280 upd=361208 best=423 replay=50000 speed=56 f/s
+05:14:17 round=45600 frames=728478 upd=362808 best=423 replay=50000 speed=56 f/s
+05:15:08 round=45800 frames=731671 upd=364408 best=423 replay=50000 speed=56 f/s
+05:16:00 round=46000 frames=734870 upd=366008 best=423 replay=50000 speed=57 f/s
+05:16:45 ep=1110 score=183 best=423 frames=737730 upd=367432 sp=57f/s
+05:16:51 round=46200 frames=738070 upd=367608 best=423 replay=50000 speed=57 f/s
+05:17:41 round=46400 frames=741268 upd=369208 best=423 replay=50000 speed=57 f/s
+05:18:32 round=46600 frames=744456 upd=370808 best=423 replay=50000 speed=57 f/s
+05:18:46 ep=1120 score=143 best=423 frames=745380 upd=371264 sp=57f/s
+05:19:22 round=46800 frames=747650 upd=372408 best=423 replay=50000 speed=57 f/s
+05:20:12 round=47000 frames=750848 upd=374008 best=423 replay=50000 speed=57 f/s
+05:21:03 round=47200 frames=754044 upd=375608 best=423 replay=50000 speed=57 f/s
+05:21:45 ep=1130 score=393 best=423 frames=756703 upd=376936 sp=57f/s
+05:21:53 round=47400 frames=757243 upd=377208 best=423 replay=50000 speed=57 f/s
+05:22:44 round=47600 frames=760441 upd=378808 best=423 replay=50000 speed=57 f/s
+05:23:36 round=47800 frames=763635 upd=380408 best=423 replay=50000 speed=57 f/s
+05:24:19 ep=1140 score=173 best=423 frames=766433 upd=381800 sp=57f/s
+05:24:26 round=48000 frames=766831 upd=382008 best=423 replay=50000 speed=57 f/s
+05:25:16 round=48200 frames=770029 upd=383608 best=423 replay=50000 speed=57 f/s
+05:26:07 round=48400 frames=773227 upd=385208 best=423 replay=50000 speed=57 f/s
+05:26:58 round=48600 frames=776424 upd=386808 best=423 replay=50000 speed=57 f/s
+05:27:22 ep=1150 score=62 best=423 frames=777980 upd=387584 sp=57f/s
+05:27:48 round=48800 frames=779621 upd=388408 best=423 replay=50000 speed=57 f/s
+05:28:39 round=49000 frames=782817 upd=390008 best=423 replay=50000 speed=57 f/s
+05:29:30 round=49200 frames=786013 upd=391608 best=423 replay=50000 speed=57 f/s
+05:29:49 ep=1160 score=147 best=423 frames=787215 upd=392208 sp=57f/s
+05:30:21 round=49400 frames=789210 upd=393208 best=423 replay=50000 speed=57 f/s
+05:31:12 round=49600 frames=792406 upd=394808 best=423 replay=50000 speed=57 f/s
+05:32:03 round=49800 frames=795606 upd=396408 best=423 replay=50000 speed=57 f/s
+05:32:28 ep=1170 score=201 best=423 frames=797234 upd=397216 sp=57f/s
+05:32:53 round=50000 frames=798803 upd=398008 best=423 replay=50000 speed=57 f/s
+05:33:44 round=50200 frames=802001 upd=399608 best=423 replay=50000 speed=57 f/s
+05:34:35 round=50400 frames=805201 upd=401208 best=423 replay=50000 speed=57 f/s
+05:35:25 round=50600 frames=808398 upd=402808 best=423 replay=50000 speed=57 f/s
+05:36:15 round=50800 frames=811598 upd=404408 best=423 replay=50000 speed=57 f/s
+05:36:24 ep=1180 score=276 best=423 frames=812144 upd=404680 sp=57f/s
+05:37:07 round=51000 frames=814792 upd=406008 best=423 replay=50000 speed=57 f/s
+05:37:57 round=51200 frames=817992 upd=407608 best=423 replay=50000 speed=57 f/s
+05:38:30 ep=1188 score=455 best=455 frames=820085 upd=408648 sp=57f/s
+05:38:48 round=51400 frames=821189 upd=409208 best=455 replay=50000 speed=57 f/s
+05:38:54 ep=1190 score=116 best=455 frames=821531 upd=409376 sp=57f/s
+05:39:39 round=51600 frames=824382 upd=410808 best=455 replay=50000 speed=57 f/s
+05:40:30 round=51800 frames=827581 upd=412408 best=455 replay=50000 speed=57 f/s
+05:41:07 ep=1200 score=310 best=455 frames=829919 upd=413576 sp=57f/s
+05:41:21 round=52000 frames=830777 upd=414008 best=455 replay=50000 speed=57 f/s
+05:42:11 round=52200 frames=833971 upd=415608 best=455 replay=50000 speed=57 f/s
+05:43:01 round=52400 frames=837170 upd=417208 best=455 replay=50000 speed=57 f/s
+05:43:36 ep=1210 score=53 best=455 frames=839361 upd=418304 sp=57f/s
+05:43:51 round=52600 frames=840363 upd=418808 best=455 replay=50000 speed=57 f/s
+05:44:42 round=52800 frames=843557 upd=420408 best=455 replay=50000 speed=57 f/s
+05:45:33 round=53000 frames=846756 upd=422008 best=455 replay=50000 speed=57 f/s
+05:46:23 round=53200 frames=849952 upd=423608 best=455 replay=50000 speed=57 f/s
+05:46:56 ep=1220 score=124 best=455 frames=852044 upd=424648 sp=57f/s
+05:47:13 round=53400 frames=853150 upd=425208 best=455 replay=50000 speed=57 f/s
+05:48:04 round=53600 frames=856343 upd=426808 best=455 replay=50000 speed=57 f/s
+05:48:55 round=53800 frames=859541 upd=428408 best=455 replay=50000 speed=57 f/s
+05:49:45 round=54000 frames=862741 upd=430008 best=455 replay=50000 speed=57 f/s
+05:50:36 round=54200 frames=865938 upd=431608 best=455 replay=50000 speed=57 f/s
+05:50:37 ep=1230 score=173 best=455 frames=866052 upd=431664 sp=57f/s
+05:50:57 ep=1232 score=518 best=518 frames=867305 upd=432288 sp=57f/s
+05:51:26 round=54400 frames=869131 upd=433208 best=518 replay=50000 speed=57 f/s
+05:52:17 round=54600 frames=872331 upd=434808 best=518 replay=50000 speed=57 f/s
+05:52:23 ep=1240 score=87 best=518 frames=872723 upd=435000 sp=57f/s
+05:53:09 round=54800 frames=875527 upd=436408 best=518 replay=50000 speed=57 f/s
+05:53:59 round=55000 frames=878727 upd=438008 best=518 replay=50000 speed=57 f/s
+05:54:49 round=55200 frames=881925 upd=439608 best=518 replay=50000 speed=58 f/s
+05:55:40 round=55400 frames=885122 upd=441208 best=518 replay=50000 speed=58 f/s
+05:56:30 round=55600 frames=888318 upd=442808 best=518 replay=50000 speed=58 f/s
+05:56:38 ep=1250 score=437 best=518 frames=888853 upd=443072 sp=58f/s
+05:57:20 round=55800 frames=891517 upd=444408 best=518 replay=50000 speed=58 f/s
+05:58:08 ep=1255 score=785 best=785 frames=894491 upd=445888 sp=58f/s
+05:58:12 round=56000 frames=894715 upd=446008 best=785 replay=50000 speed=58 f/s
+05:59:02 round=56200 frames=897909 upd=447608 best=785 replay=50000 speed=58 f/s
+05:59:53 round=56400 frames=901107 upd=449208 best=785 replay=50000 speed=58 f/s
+06:00:32 ep=1260 score=367 best=785 frames=903551 upd=450424 sp=58f/s
+06:00:44 round=56600 frames=904305 upd=450808 best=785 replay=50000 speed=58 f/s
+06:01:35 round=56800 frames=907505 upd=452408 best=785 replay=50000 speed=58 f/s
+06:02:27 round=57000 frames=910705 upd=454008 best=785 replay=50000 speed=58 f/s
+06:03:17 round=57200 frames=913902 upd=455608 best=785 replay=50000 speed=58 f/s
+06:04:07 round=57400 frames=917100 upd=457208 best=785 replay=50000 speed=58 f/s
+06:04:22 ep=1270 score=113 best=785 frames=918025 upd=457664 sp=58f/s
+06:04:58 round=57600 frames=920297 upd=458808 best=785 replay=50000 speed=58 f/s
+06:05:49 round=57800 frames=923491 upd=460408 best=785 replay=50000 speed=58 f/s
+06:06:39 round=58000 frames=926687 upd=462008 best=785 replay=50000 speed=58 f/s
+06:07:29 round=58200 frames=929885 upd=463608 best=785 replay=50000 speed=58 f/s
+06:07:59 ep=1280 score=265 best=785 frames=931808 upd=464568 sp=58f/s
+06:08:20 round=58400 frames=933084 upd=465208 best=785 replay=50000 speed=58 f/s
+06:09:10 round=58600 frames=936284 upd=466808 best=785 replay=50000 speed=58 f/s
+06:10:02 round=58800 frames=939484 upd=468408 best=785 replay=50000 speed=58 f/s
+06:10:52 round=59000 frames=942682 upd=470008 best=785 replay=50000 speed=58 f/s
+06:11:43 round=59200 frames=945882 upd=471608 best=785 replay=50000 speed=58 f/s
+06:12:33 round=59400 frames=949080 upd=473208 best=785 replay=50000 speed=58 f/s
+06:13:24 round=59600 frames=952280 upd=474808 best=785 replay=50000 speed=58 f/s
+06:14:07 ep=1290 score=72 best=785 frames=955062 upd=476192 sp=58f/s
+06:14:14 round=59800 frames=955478 upd=476408 best=785 replay=50000 speed=58 f/s
+06:15:04 round=60000 frames=958678 upd=478008 best=785 replay=50000 speed=58 f/s
+06:15:29 ep=1294 score=976 best=976 frames=960214 upd=478776 sp=58f/s
+06:15:55 round=60200 frames=961874 upd=479608 best=976 replay=50000 speed=58 f/s
+06:16:46 round=60400 frames=965069 upd=481208 best=976 replay=50000 speed=58 f/s
+06:17:37 round=60600 frames=968267 upd=482808 best=976 replay=50000 speed=58 f/s
+06:18:24 ep=1300 score=221 best=976 frames=971269 upd=484304 sp=58f/s
+06:18:28 round=60800 frames=971465 upd=484408 best=976 replay=50000 speed=58 f/s
+06:19:19 round=61000 frames=974661 upd=486008 best=976 replay=50000 speed=58 f/s
+06:20:10 round=61200 frames=977857 upd=487608 best=976 replay=50000 speed=58 f/s
+06:21:01 round=61400 frames=981057 upd=489208 best=976 replay=50000 speed=58 f/s
+06:21:52 round=61600 frames=984256 upd=490808 best=976 replay=50000 speed=58 f/s
+06:22:43 round=61800 frames=987456 upd=492408 best=976 replay=50000 speed=58 f/s
+06:23:34 round=62000 frames=990654 upd=494008 best=976 replay=50000 speed=58 f/s
+06:23:41 ep=1310 score=53 best=976 frames=991128 upd=494240 sp=58f/s
+06:24:24 round=62200 frames=993852 upd=495608 best=976 replay=50000 speed=58 f/s
+06:25:15 round=62400 frames=997050 upd=497208 best=976 replay=50000 speed=58 f/s
+06:26:05 round=62600 frames=1000250 upd=498808 best=976 replay=50000 speed=58 f/s
+06:26:55 round=62800 frames=1003450 upd=500408 best=976 replay=50000 speed=58 f/s
+06:27:46 round=63000 frames=1006647 upd=502008 best=976 replay=50000 speed=58 f/s
+06:28:00 ep=1318 score=1159 best=1159 frames=1007533 upd=502448 sp=58f/s
+06:28:36 round=63200 frames=1009845 upd=503608 best=1159 replay=50000 speed=58 f/s
+06:29:25 ep=1320 score=60 best=1159 frames=1012936 upd=505152 sp=58f/s
+06:29:27 round=63400 frames=1013044 upd=505208 best=1159 replay=50000 speed=58 f/s
+06:30:16 round=63600 frames=1016244 upd=506808 best=1159 replay=50000 speed=58 f/s
+06:31:07 round=63800 frames=1019443 upd=508408 best=1159 replay=50000 speed=58 f/s
+06:31:59 round=64000 frames=1022642 upd=510008 best=1159 replay=50000 speed=58 f/s
+06:32:50 round=64200 frames=1025837 upd=511608 best=1159 replay=50000 speed=58 f/s
+06:33:41 round=64400 frames=1029037 upd=513208 best=1159 replay=50000 speed=58 f/s
+06:34:31 round=64600 frames=1032237 upd=514808 best=1159 replay=50000 speed=58 f/s
+06:34:47 ep=1330 score=72 best=1159 frames=1033213 upd=515288 sp=58f/s
+06:35:22 round=64800 frames=1035437 upd=516408 best=1159 replay=50000 speed=58 f/s
+06:36:13 round=65000 frames=1038637 upd=518008 best=1159 replay=50000 speed=58 f/s
+06:37:04 round=65200 frames=1041835 upd=519608 best=1159 replay=50000 speed=58 f/s
+06:37:54 round=65400 frames=1045033 upd=521208 best=1159 replay=50000 speed=58 f/s
+06:38:44 round=65600 frames=1048233 upd=522808 best=1159 replay=50000 speed=58 f/s
+06:39:35 round=65800 frames=1051431 upd=524408 best=1159 replay=50000 speed=58 f/s
+06:40:26 round=66000 frames=1054629 upd=526008 best=1159 replay=50000 speed=58 f/s
+06:41:16 round=66200 frames=1057829 upd=527608 best=1159 replay=50000 speed=58 f/s
+06:42:07 round=66400 frames=1061027 upd=529208 best=1159 replay=50000 speed=58 f/s
+06:42:57 round=66600 frames=1064227 upd=530808 best=1159 replay=50000 speed=58 f/s
+06:43:14 ep=1340 score=507 best=1159 frames=1065282 upd=531328 sp=58f/s
+06:43:48 round=66800 frames=1067424 upd=532408 best=1159 replay=50000 speed=58 f/s
+06:44:38 round=67000 frames=1070623 upd=534008 best=1159 replay=50000 speed=58 f/s
+06:45:28 round=67200 frames=1073823 upd=535608 best=1159 replay=50000 speed=58 f/s
+06:46:20 round=67400 frames=1077021 upd=537208 best=1159 replay=50000 speed=58 f/s
+06:47:10 round=67600 frames=1080221 upd=538808 best=1159 replay=50000 speed=58 f/s
+06:48:00 round=67800 frames=1083418 upd=540408 best=1159 replay=50000 speed=58 f/s
+06:48:51 round=68000 frames=1086618 upd=542008 best=1159 replay=50000 speed=58 f/s
+06:49:42 round=68200 frames=1089816 upd=543608 best=1159 replay=50000 speed=59 f/s
+06:49:47 ep=1350 score=102 best=1159 frames=1090173 upd=543784 sp=59f/s
+06:50:32 round=68400 frames=1093009 upd=545208 best=1159 replay=50000 speed=59 f/s
+06:51:23 round=68600 frames=1096209 upd=546808 best=1159 replay=50000 speed=59 f/s
+06:52:13 round=68800 frames=1099407 upd=548408 best=1159 replay=50000 speed=59 f/s
+06:53:04 round=69000 frames=1102601 upd=550008 best=1159 replay=50000 speed=59 f/s
+06:53:55 round=69200 frames=1105801 upd=551608 best=1159 replay=50000 speed=59 f/s
+06:54:12 ep=1360 score=272 best=1159 frames=1106875 upd=552144 sp=59f/s
+06:54:46 round=69400 frames=1108999 upd=553208 best=1159 replay=50000 speed=59 f/s
+06:55:37 round=69600 frames=1112195 upd=554808 best=1159 replay=50000 speed=59 f/s
+06:56:28 round=69800 frames=1115393 upd=556408 best=1159 replay=50000 speed=59 f/s
+06:57:18 round=70000 frames=1118593 upd=558008 best=1159 replay=50000 speed=59 f/s
+06:58:08 round=70200 frames=1121793 upd=559608 best=1159 replay=50000 speed=59 f/s
+06:58:58 round=70400 frames=1124991 upd=561208 best=1159 replay=50000 speed=59 f/s
+06:59:49 round=70600 frames=1128191 upd=562808 best=1159 replay=50000 speed=59 f/s
+07:00:23 ep=1370 score=315 best=1159 frames=1130399 upd=563904 sp=59f/s
+07:00:39 round=70800 frames=1131391 upd=564408 best=1159 replay=50000 speed=59 f/s
+07:01:30 round=71000 frames=1134591 upd=566008 best=1159 replay=50000 speed=59 f/s
+07:02:21 round=71200 frames=1137790 upd=567608 best=1159 replay=50000 speed=59 f/s
+07:03:11 round=71400 frames=1140989 upd=569208 best=1159 replay=50000 speed=59 f/s
+07:04:02 round=71600 frames=1144189 upd=570808 best=1159 replay=50000 speed=59 f/s
+07:04:42 ep=1373 score=1294 best=1294 frames=1146789 upd=572104 sp=59f/s
+07:04:52 round=71800 frames=1147389 upd=572408 best=1294 replay=50000 speed=59 f/s
+07:05:42 round=72000 frames=1150589 upd=574008 best=1294 replay=50000 speed=59 f/s
+07:06:32 round=72200 frames=1153787 upd=575608 best=1294 replay=50000 speed=59 f/s
+07:07:23 round=72400 frames=1156987 upd=577208 best=1294 replay=50000 speed=59 f/s
+07:08:13 round=72600 frames=1160187 upd=578808 best=1294 replay=50000 speed=59 f/s
+07:08:47 ep=1379 score=1801 best=1801 frames=1162367 upd=579896 sp=59f/s
+07:08:49 ep=1380 score=211 best=1801 frames=1162503 upd=579960 sp=59f/s
+07:09:03 round=72800 frames=1163387 upd=580408 best=1801 replay=50000 speed=59 f/s
+07:09:54 round=73000 frames=1166587 upd=582008 best=1801 replay=50000 speed=59 f/s
+07:10:45 round=73200 frames=1169787 upd=583608 best=1801 replay=50000 speed=59 f/s
+07:11:36 round=73400 frames=1172987 upd=585208 best=1801 replay=50000 speed=59 f/s
+07:12:26 round=73600 frames=1176185 upd=586808 best=1801 replay=50000 speed=59 f/s
+07:13:16 round=73800 frames=1179383 upd=588408 best=1801 replay=50000 speed=59 f/s
+07:14:07 round=74000 frames=1182581 upd=590008 best=1801 replay=50000 speed=59 f/s
+07:14:57 round=74200 frames=1185781 upd=591608 best=1801 replay=50000 speed=59 f/s
+07:15:47 round=74400 frames=1188978 upd=593208 best=1801 replay=50000 speed=59 f/s
+07:16:04 ep=1390 score=152 best=1801 frames=1190105 upd=593768 sp=59f/s
+07:16:38 round=74600 frames=1192176 upd=594808 best=1801 replay=50000 speed=59 f/s
+07:17:28 round=74800 frames=1195376 upd=596408 best=1801 replay=50000 speed=59 f/s
+07:18:18 round=75000 frames=1198574 upd=598008 best=1801 replay=50000 speed=59 f/s
+07:19:08 round=75200 frames=1201774 upd=599608 best=1801 replay=50000 speed=59 f/s
+07:19:59 round=75400 frames=1204973 upd=601208 best=1801 replay=50000 speed=59 f/s
+07:20:50 round=75600 frames=1208173 upd=602808 best=1801 replay=50000 speed=59 f/s
+07:21:40 round=75800 frames=1211366 upd=604408 best=1801 replay=50000 speed=59 f/s
+07:22:33 round=76000 frames=1214566 upd=606008 best=1801 replay=50000 speed=59 f/s
+07:23:06 ep=1400 score=242 best=1801 frames=1216595 upd=607016 sp=59f/s
+07:23:25 round=76200 frames=1217763 upd=607608 best=1801 replay=50000 speed=59 f/s
+07:24:16 round=76400 frames=1220961 upd=609208 best=1801 replay=50000 speed=59 f/s
+07:25:08 round=76600 frames=1224161 upd=610808 best=1801 replay=50000 speed=59 f/s
+07:25:59 round=76800 frames=1227359 upd=612408 best=1801 replay=50000 speed=59 f/s
+07:26:50 round=77000 frames=1230558 upd=614008 best=1801 replay=50000 speed=59 f/s
+07:27:40 round=77200 frames=1233757 upd=615608 best=1801 replay=50000 speed=59 f/s
+07:28:30 round=77400 frames=1236956 upd=617208 best=1801 replay=50000 speed=59 f/s
+07:28:44 ep=1410 score=64 best=1801 frames=1237843 upd=617648 sp=59f/s
+07:29:21 round=77600 frames=1240155 upd=618808 best=1801 replay=50000 speed=59 f/s
+07:30:11 round=77800 frames=1243352 upd=620408 best=1801 replay=50000 speed=59 f/s
+07:31:02 round=78000 frames=1246552 upd=622008 best=1801 replay=50000 speed=59 f/s
+07:31:53 round=78200 frames=1249752 upd=623608 best=1801 replay=50000 speed=59 f/s
+07:32:42 round=78400 frames=1252950 upd=625208 best=1801 replay=50000 speed=59 f/s
+07:33:33 round=78600 frames=1256150 upd=626808 best=1801 replay=50000 speed=59 f/s
+07:34:23 round=78800 frames=1259350 upd=628408 best=1801 replay=50000 speed=59 f/s
+07:35:13 round=79000 frames=1262548 upd=630008 best=1801 replay=50000 speed=59 f/s
+07:36:04 round=79200 frames=1265745 upd=631608 best=1801 replay=50000 speed=59 f/s
+07:36:19 ep=1420 score=960 best=1801 frames=1266660 upd=632064 sp=59f/s
+07:36:55 round=79400 frames=1268944 upd=633208 best=1801 replay=50000 speed=59 f/s
+07:37:45 round=79600 frames=1272144 upd=634808 best=1801 replay=50000 speed=59 f/s
+07:38:36 round=79800 frames=1275344 upd=636408 best=1801 replay=50000 speed=59 f/s
+07:39:28 round=80000 frames=1278544 upd=638008 best=1801 replay=50000 speed=59 f/s
+07:40:18 round=80200 frames=1281744 upd=639608 best=1801 replay=50000 speed=59 f/s
+07:41:09 round=80400 frames=1284942 upd=641208 best=1801 replay=50000 speed=59 f/s
+07:41:59 round=80600 frames=1288142 upd=642808 best=1801 replay=50000 speed=59 f/s
+07:42:46 ep=1430 score=315 best=1801 frames=1291155 upd=644312 sp=59f/s
+07:42:50 round=80800 frames=1291339 upd=644408 best=1801 replay=50000 speed=59 f/s
+07:43:40 round=81000 frames=1294539 upd=646008 best=1801 replay=50000 speed=59 f/s
+07:44:30 round=81200 frames=1297739 upd=647608 best=1801 replay=50000 speed=59 f/s
+07:45:21 round=81400 frames=1300939 upd=649208 best=1801 replay=50000 speed=59 f/s
+07:46:11 round=81600 frames=1304139 upd=650808 best=1801 replay=50000 speed=59 f/s
+07:47:01 round=81800 frames=1307335 upd=652408 best=1801 replay=50000 speed=59 f/s
+07:47:51 round=82000 frames=1310535 upd=654008 best=1801 replay=50000 speed=59 f/s
+07:48:42 round=82200 frames=1313734 upd=655608 best=1801 replay=50000 speed=59 f/s
+07:49:32 round=82400 frames=1316934 upd=657208 best=1801 replay=50000 speed=59 f/s
+07:49:36 ep=1440 score=143 best=1801 frames=1317160 upd=657320 sp=59f/s
+07:50:23 round=82600 frames=1320130 upd=658808 best=1801 replay=50000 speed=59 f/s
+07:51:13 round=82800 frames=1323328 upd=660408 best=1801 replay=50000 speed=59 f/s
+07:52:04 round=83000 frames=1326528 upd=662008 best=1801 replay=50000 speed=59 f/s
+07:52:55 round=83200 frames=1329726 upd=663608 best=1801 replay=50000 speed=59 f/s
+07:53:45 round=83400 frames=1332926 upd=665208 best=1801 replay=50000 speed=59 f/s
+07:54:36 round=83600 frames=1336125 upd=666808 best=1801 replay=50000 speed=59 f/s
+07:55:26 round=83800 frames=1339325 upd=668408 best=1801 replay=50000 speed=59 f/s
+07:56:17 round=84000 frames=1342525 upd=670008 best=1801 replay=50000 speed=59 f/s
+07:57:08 round=84200 frames=1345721 upd=671608 best=1801 replay=50000 speed=59 f/s
+07:57:22 ep=1450 score=61 best=1801 frames=1346622 upd=672056 sp=59f/s
+07:57:59 round=84400 frames=1348918 upd=673208 best=1801 replay=50000 speed=59 f/s
+07:58:49 round=84600 frames=1352118 upd=674808 best=1801 replay=50000 speed=59 f/s
+07:59:40 round=84800 frames=1355316 upd=676408 best=1801 replay=50000 speed=59 f/s
+08:00:31 round=85000 frames=1358516 upd=678008 best=1801 replay=50000 speed=59 f/s
+08:01:21 round=85200 frames=1361713 upd=679608 best=1801 replay=50000 speed=59 f/s
+08:02:12 round=85400 frames=1364909 upd=681208 best=1801 replay=50000 speed=59 f/s
+08:03:02 round=85600 frames=1368109 upd=682808 best=1801 replay=50000 speed=59 f/s
+08:03:54 round=85800 frames=1371307 upd=684408 best=1801 replay=50000 speed=59 f/s
+08:04:46 round=86000 frames=1374507 upd=686008 best=1801 replay=50000 speed=59 f/s
+08:04:54 ep=1460 score=497 best=1801 frames=1374946 upd=686224 sp=59f/s
+08:05:41 round=86200 frames=1377706 upd=687608 best=1801 replay=50000 speed=59 f/s
+08:06:34 round=86400 frames=1380904 upd=689208 best=1801 replay=50000 speed=59 f/s
+08:07:28 round=86600 frames=1384099 upd=690808 best=1801 replay=50000 speed=59 f/s
+08:08:22 round=86800 frames=1387299 upd=692408 best=1801 replay=50000 speed=59 f/s
+08:09:15 round=87000 frames=1390494 upd=694008 best=1801 replay=50000 speed=59 f/s
+08:09:40 ep=1470 score=297 best=1801 frames=1392023 upd=694768 sp=59f/s
+08:10:07 round=87200 frames=1393690 upd=695608 best=1801 replay=50000 speed=59 f/s
+08:11:00 round=87400 frames=1396888 upd=697208 best=1801 replay=50000 speed=59 f/s
+08:11:53 round=87600 frames=1400088 upd=698808 best=1801 replay=50000 speed=59 f/s
+08:12:46 round=87800 frames=1403288 upd=700408 best=1801 replay=50000 speed=59 f/s
+08:13:41 round=88000 frames=1406482 upd=702008 best=1801 replay=50000 speed=59 f/s
+08:14:34 round=88200 frames=1409679 upd=703608 best=1801 replay=50000 speed=59 f/s
+08:15:28 round=88400 frames=1412879 upd=705208 best=1801 replay=50000 speed=59 f/s
+08:16:24 round=88600 frames=1416079 upd=706808 best=1801 replay=50000 speed=59 f/s
+08:16:48 ep=1480 score=293 best=1801 frames=1417455 upd=707488 sp=59f/s
+08:17:18 round=88800 frames=1419279 upd=708408 best=1801 replay=50000 speed=59 f/s
+08:18:21 round=89000 frames=1422478 upd=710008 best=1801 replay=50000 speed=59 f/s
+08:19:52 round=89200 frames=1425678 upd=711608 best=1801 replay=50000 speed=59 f/s
+08:21:24 round=89400 frames=1428878 upd=713208 best=1801 replay=50000 speed=59 f/s
+08:22:51 round=89600 frames=1432077 upd=714808 best=1801 replay=50000 speed=59 f/s
+08:24:19 round=89800 frames=1435273 upd=716408 best=1801 replay=50000 speed=59 f/s
+08:25:46 round=90000 frames=1438473 upd=718008 best=1801 replay=50000 speed=59 f/s
+08:27:13 round=90200 frames=1441673 upd=719608 best=1801 replay=50000 speed=59 f/s
+08:28:40 round=90400 frames=1444871 upd=721208 best=1801 replay=50000 speed=59 f/s
+08:30:00 ep=1490 score=99 best=1801 frames=1447811 upd=722672 sp=59f/s
+08:30:08 round=90600 frames=1448067 upd=722808 best=1801 replay=50000 speed=59 f/s
+08:31:36 round=90800 frames=1451264 upd=724408 best=1801 replay=50000 speed=59 f/s
+08:33:05 round=91000 frames=1454459 upd=726008 best=1801 replay=50000 speed=59 f/s
+08:34:31 round=91200 frames=1457659 upd=727608 best=1801 replay=50000 speed=59 f/s
+08:35:56 round=91400 frames=1460858 upd=729208 best=1801 replay=50000 speed=58 f/s
+08:37:40 round=91600 frames=1464058 upd=730808 best=1801 replay=50000 speed=58 f/s
+08:39:23 ep=1500 score=587 best=1801 frames=1467196 upd=732376 sp=58f/s
+08:39:25 round=91800 frames=1467256 upd=732408 best=1801 replay=50000 speed=58 f/s
+08:41:11 round=92000 frames=1470456 upd=734008 best=1801 replay=50000 speed=58 f/s
+08:42:58 round=92200 frames=1473656 upd=735608 best=1801 replay=50000 speed=58 f/s
+08:44:45 round=92400 frames=1476851 upd=737208 best=1801 replay=50000 speed=58 f/s
+08:46:30 round=92600 frames=1480049 upd=738808 best=1801 replay=50000 speed=58 f/s
+08:48:14 round=92800 frames=1483249 upd=740408 best=1801 replay=50000 speed=58 f/s
+08:49:59 round=93000 frames=1486448 upd=742008 best=1801 replay=50000 speed=58 f/s
+08:51:46 round=93200 frames=1489648 upd=743608 best=1801 replay=50000 speed=57 f/s
+08:53:21 ep=1510 score=592 best=1801 frames=1492544 upd=745048 sp=57f/s
+08:53:32 round=93400 frames=1492848 upd=745208 best=1801 replay=50000 speed=57 f/s
+08:55:17 round=93600 frames=1496047 upd=746808 best=1801 replay=50000 speed=57 f/s
+08:57:03 round=93800 frames=1499245 upd=748408 best=1801 replay=50000 speed=57 f/s
+08:58:48 round=94000 frames=1502444 upd=750008 best=1801 replay=50000 speed=57 f/s
+09:00:32 round=94200 frames=1505644 upd=751608 best=1801 replay=50000 speed=57 f/s
+09:02:10 round=94400 frames=1508840 upd=753208 best=1801 replay=50000 speed=57 f/s
+09:03:10 ep=1520 score=184 best=1801 frames=1510746 upd=754160 sp=57f/s
+09:03:50 round=94600 frames=1512038 upd=754808 best=1801 replay=50000 speed=57 f/s
+09:05:31 round=94800 frames=1515237 upd=756408 best=1801 replay=50000 speed=57 f/s
+09:07:11 round=95000 frames=1518435 upd=758008 best=1801 replay=50000 speed=57 f/s
+09:08:52 round=95200 frames=1521631 upd=759608 best=1801 replay=50000 speed=56 f/s
+09:10:32 round=95400 frames=1524830 upd=761208 best=1801 replay=50000 speed=56 f/s
+09:12:12 round=95600 frames=1528030 upd=762808 best=1801 replay=50000 speed=56 f/s
+09:13:53 round=95800 frames=1531229 upd=764408 best=1801 replay=50000 speed=56 f/s
+09:14:56 ep=1530 score=202 best=1801 frames=1533271 upd=765424 sp=56f/s
+09:15:33 round=96000 frames=1534426 upd=766008 best=1801 replay=50000 speed=56 f/s
+09:17:16 round=96200 frames=1537624 upd=767608 best=1801 replay=50000 speed=56 f/s
+09:18:57 round=96400 frames=1540824 upd=769208 best=1801 replay=50000 speed=56 f/s
+09:20:38 round=96600 frames=1544023 upd=770808 best=1801 replay=50000 speed=56 f/s
+09:22:19 round=96800 frames=1547221 upd=772408 best=1801 replay=50000 speed=56 f/s
+09:24:01 round=97000 frames=1550421 upd=774008 best=1801 replay=50000 speed=56 f/s
+09:25:40 round=97200 frames=1553621 upd=775608 best=1801 replay=50000 speed=56 f/s
+09:27:21 round=97400 frames=1556819 upd=777208 best=1801 replay=50000 speed=55 f/s
+09:27:38 ep=1540 score=609 best=1801 frames=1557375 upd=777480 sp=55f/s
+09:29:02 round=97600 frames=1560018 upd=778808 best=1801 replay=50000 speed=55 f/s
+09:30:43 round=97800 frames=1563218 upd=780408 best=1801 replay=50000 speed=55 f/s
+09:32:24 round=98000 frames=1566413 upd=782008 best=1801 replay=50000 speed=55 f/s
+09:34:04 round=98200 frames=1569613 upd=783608 best=1801 replay=50000 speed=55 f/s
+09:35:44 round=98400 frames=1572813 upd=785208 best=1801 replay=50000 speed=55 f/s
+09:37:25 round=98600 frames=1576011 upd=786808 best=1801 replay=50000 speed=55 f/s
+09:38:04 ep=1550 score=568 best=1801 frames=1577230 upd=787416 sp=55f/s
+09:39:06 round=98800 frames=1579210 upd=788408 best=1801 replay=50000 speed=55 f/s
+09:40:50 round=99000 frames=1582409 upd=790008 best=1801 replay=50000 speed=55 f/s
+09:42:34 round=99200 frames=1585609 upd=791608 best=1801 replay=50000 speed=55 f/s
+09:44:17 round=99400 frames=1588809 upd=793208 best=1801 replay=50000 speed=55 f/s
+09:46:00 round=99600 frames=1592009 upd=794808 best=1801 replay=50000 speed=55 f/s
+09:47:06 round=99800 frames=1595209 upd=796408 best=1801 replay=50000 speed=54 f/s
+09:48:00 round=100000 frames=1598409 upd=798008 best=1801 replay=50000 speed=55 f/s
+09:48:53 round=100200 frames=1601607 upd=799608 best=1801 replay=50000 speed=55 f/s
+09:49:46 round=100400 frames=1604807 upd=801208 best=1801 replay=50000 speed=55 f/s
+09:50:40 round=100600 frames=1608007 upd=802808 best=1801 replay=50000 speed=55 f/s
+09:51:17 ep=1560 score=284 best=1801 frames=1610138 upd=803872 sp=55f/s
+09:51:35 round=100800 frames=1611206 upd=804408 best=1801 replay=50000 speed=55 f/s
+09:52:30 round=101000 frames=1614406 upd=806008 best=1801 replay=50000 speed=55 f/s
+09:53:25 round=101200 frames=1617606 upd=807608 best=1801 replay=50000 speed=55 f/s
+09:54:19 round=101400 frames=1620804 upd=809208 best=1801 replay=50000 speed=55 f/s
+09:55:14 round=101600 frames=1624004 upd=810808 best=1801 replay=50000 speed=55 f/s
+09:56:53 round=101800 frames=1627204 upd=812408 best=1801 replay=50000 speed=55 f/s
+09:58:40 round=102000 frames=1630404 upd=814008 best=1801 replay=50000 speed=54 f/s
+10:00:26 round=102200 frames=1633604 upd=815608 best=1801 replay=50000 speed=54 f/s
+10:02:08 round=102400 frames=1636803 upd=817208 best=1801 replay=50000 speed=54 f/s
+10:03:54 round=102600 frames=1640001 upd=818808 best=1801 replay=50000 speed=54 f/s
+10:05:25 round=102800 frames=1643201 upd=820408 best=1801 replay=50000 speed=54 f/s
+10:05:51 ep=1570 score=1151 best=1801 frames=1644793 upd=821200 sp=54f/s
+10:06:19 round=103000 frames=1646399 upd=822008 best=1801 replay=50000 speed=54 f/s
+10:07:14 round=103200 frames=1649597 upd=823608 best=1801 replay=50000 speed=54 f/s
+10:08:08 round=103400 frames=1652797 upd=825208 best=1801 replay=50000 speed=54 f/s
+10:09:02 round=103600 frames=1655997 upd=826808 best=1801 replay=50000 speed=54 f/s
+10:10:18 round=103800 frames=1659193 upd=828408 best=1801 replay=50000 speed=54 f/s
+10:12:05 round=104000 frames=1662393 upd=830008 best=1801 replay=50000 speed=54 f/s
+10:13:51 round=104200 frames=1665591 upd=831608 best=1801 replay=50000 speed=54 f/s
+10:14:27 ep=1580 score=79 best=1801 frames=1666619 upd=832120 sp=54f/s
+10:15:42 round=104400 frames=1668790 upd=833208 best=1801 replay=50000 speed=54 f/s
+10:17:27 round=104600 frames=1671990 upd=834808 best=1801 replay=50000 speed=54 f/s
+10:19:12 round=104800 frames=1675188 upd=836408 best=1801 replay=50000 speed=54 f/s
+10:20:56 round=105000 frames=1678388 upd=838008 best=1801 replay=50000 speed=54 f/s
+10:22:39 round=105200 frames=1681588 upd=839608 best=1801 replay=50000 speed=54 f/s
+10:24:24 round=105400 frames=1684788 upd=841208 best=1801 replay=50000 speed=53 f/s
+10:26:09 round=105600 frames=1687987 upd=842808 best=1801 replay=50000 speed=53 f/s
+10:27:53 round=105800 frames=1691184 upd=844408 best=1801 replay=50000 speed=53 f/s
+10:29:39 round=106000 frames=1694380 upd=846008 best=1801 replay=50000 speed=53 f/s
+10:29:46 ep=1590 score=753 best=1801 frames=1694582 upd=846104 sp=53f/s
+10:31:23 round=106200 frames=1697578 upd=847608 best=1801 replay=50000 speed=53 f/s
+10:33:08 round=106400 frames=1700777 upd=849208 best=1801 replay=50000 speed=53 f/s
+10:34:52 round=106600 frames=1703977 upd=850808 best=1801 replay=50000 speed=53 f/s
+10:36:35 round=106800 frames=1707177 upd=852408 best=1801 replay=50000 speed=53 f/s
+10:38:19 round=107000 frames=1710377 upd=854008 best=1801 replay=50000 speed=53 f/s
+10:40:03 round=107200 frames=1713576 upd=855608 best=1801 replay=50000 speed=53 f/s
+10:41:47 round=107400 frames=1716774 upd=857208 best=1801 replay=50000 speed=53 f/s
+10:43:31 round=107600 frames=1719974 upd=858808 best=1801 replay=50000 speed=53 f/s
+10:44:32 ep=1600 score=284 best=1801 frames=1721834 upd=859736 sp=53f/s
+10:45:16 round=107800 frames=1723171 upd=860408 best=1801 replay=50000 speed=53 f/s
+10:46:59 round=108000 frames=1726369 upd=862008 best=1801 replay=50000 speed=53 f/s
+10:48:43 round=108200 frames=1729569 upd=863608 best=1801 replay=50000 speed=52 f/s
+10:50:26 round=108400 frames=1732767 upd=865208 best=1801 replay=50000 speed=52 f/s
+10:52:08 round=108600 frames=1735967 upd=866808 best=1801 replay=50000 speed=52 f/s
+10:53:51 round=108800 frames=1739167 upd=868408 best=1801 replay=50000 speed=52 f/s
+10:55:34 round=109000 frames=1742366 upd=870008 best=1801 replay=50000 speed=52 f/s
+10:57:18 round=109200 frames=1745566 upd=871608 best=1801 replay=50000 speed=52 f/s
+10:58:17 ep=1610 score=297 best=1801 frames=1747413 upd=872528 sp=52f/s
+10:59:00 round=109400 frames=1748765 upd=873208 best=1801 replay=50000 speed=52 f/s
+11:00:44 round=109600 frames=1751962 upd=874808 best=1801 replay=50000 speed=52 f/s
+11:02:28 round=109800 frames=1755160 upd=876408 best=1801 replay=50000 speed=52 f/s
+11:04:12 round=110000 frames=1758360 upd=878008 best=1801 replay=50000 speed=52 f/s
+11:05:57 round=110200 frames=1761558 upd=879608 best=1801 replay=50000 speed=52 f/s
+11:07:43 round=110400 frames=1764758 upd=881208 best=1801 replay=50000 speed=52 f/s
+11:08:57 ep=1620 score=341 best=1801 frames=1767029 upd=882344 sp=52f/s
+11:09:28 round=110600 frames=1767953 upd=882808 best=1801 replay=50000 speed=52 f/s
+11:11:13 round=110800 frames=1771153 upd=884408 best=1801 replay=50000 speed=52 f/s
+11:12:57 round=111000 frames=1774350 upd=886008 best=1801 replay=50000 speed=52 f/s
+11:14:43 round=111200 frames=1777550 upd=887608 best=1801 replay=50000 speed=51 f/s
+11:16:27 round=111400 frames=1780749 upd=889208 best=1801 replay=50000 speed=51 f/s
+11:18:13 round=111600 frames=1783949 upd=890808 best=1801 replay=50000 speed=51 f/s
+11:20:01 round=111800 frames=1787147 upd=892408 best=1801 replay=50000 speed=51 f/s
+11:21:49 round=112000 frames=1790347 upd=894008 best=1801 replay=50000 speed=51 f/s
+11:23:37 round=112200 frames=1793547 upd=895608 best=1801 replay=50000 speed=51 f/s
+11:24:05 ep=1630 score=722 best=1801 frames=1794363 upd=896016 sp=51f/s
+11:25:25 round=112400 frames=1796743 upd=897208 best=1801 replay=50000 speed=51 f/s
+11:27:11 round=112600 frames=1799940 upd=898808 best=1801 replay=50000 speed=51 f/s
+11:28:56 round=112800 frames=1803137 upd=900408 best=1801 replay=50000 speed=51 f/s
+11:30:46 round=113000 frames=1806337 upd=902008 best=1801 replay=50000 speed=51 f/s
+11:32:26 round=113200 frames=1809536 upd=903608 best=1801 replay=50000 speed=51 f/s
+11:34:17 round=113400 frames=1812735 upd=905208 best=1801 replay=50000 speed=51 f/s
+11:36:09 round=113600 frames=1815933 upd=906808 best=1801 replay=50000 speed=51 f/s
+11:38:00 round=113800 frames=1819131 upd=908408 best=1801 replay=50000 speed=51 f/s
+11:39:51 round=114000 frames=1822331 upd=910008 best=1801 replay=50000 speed=51 f/s
+11:40:10 ep=1640 score=322 best=1801 frames=1822879 upd=910280 sp=51f/s
+11:41:43 round=114200 frames=1825531 upd=911608 best=1801 replay=50000 speed=51 f/s
+11:43:34 round=114400 frames=1828731 upd=913208 best=1801 replay=50000 speed=50 f/s
+11:45:19 round=114600 frames=1831929 upd=914808 best=1801 replay=50000 speed=50 f/s
+11:46:43 round=114800 frames=1835129 upd=916408 best=1801 replay=50000 speed=50 f/s
+11:48:04 round=115000 frames=1838328 upd=918008 best=1801 replay=50000 speed=50 f/s
+11:49:25 round=115200 frames=1841527 upd=919608 best=1801 replay=50000 speed=50 f/s
+11:50:48 round=115400 frames=1844726 upd=921208 best=1801 replay=50000 speed=50 f/s
+11:51:15 ep=1650 score=616 best=1801 frames=1845797 upd=921736 sp=50f/s
+11:52:10 round=115600 frames=1847925 upd=922808 best=1801 replay=50000 speed=50 f/s
+11:53:31 round=115800 frames=1851124 upd=924408 best=1801 replay=50000 speed=50 f/s
+11:54:25 round=116000 frames=1854324 upd=926008 best=1801 replay=50000 speed=50 f/s
+11:55:18 round=116200 frames=1857524 upd=927608 best=1801 replay=50000 speed=50 f/s
+11:56:12 round=116400 frames=1860724 upd=929208 best=1801 replay=50000 speed=50 f/s
+11:57:05 round=116600 frames=1863922 upd=930808 best=1801 replay=50000 speed=50 f/s
+11:57:58 round=116800 frames=1867120 upd=932408 best=1801 replay=50000 speed=50 f/s
+11:58:51 round=117000 frames=1870320 upd=934008 best=1801 replay=50000 speed=50 f/s
+11:59:30 ep=1660 score=76 best=1801 frames=1872630 upd=935160 sp=50f/s
+11:59:45 round=117200 frames=1873518 upd=935608 best=1801 replay=50000 speed=50 f/s
+12:00:38 round=117400 frames=1876717 upd=937208 best=1801 replay=50000 speed=50 f/s
+12:01:31 round=117600 frames=1879917 upd=938808 best=1801 replay=50000 speed=50 f/s
+12:02:24 round=117800 frames=1883117 upd=940408 best=1801 replay=50000 speed=50 f/s
+12:03:16 round=118000 frames=1886317 upd=942008 best=1801 replay=50000 speed=50 f/s
+12:04:09 round=118200 frames=1889517 upd=943608 best=1801 replay=50000 speed=50 f/s
+12:05:01 round=118400 frames=1892717 upd=945208 best=1801 replay=50000 speed=50 f/s
+12:05:54 round=118600 frames=1895917 upd=946808 best=1801 replay=50000 speed=50 f/s
+12:06:47 round=118800 frames=1899116 upd=948408 best=1801 replay=50000 speed=50 f/s
+12:07:40 round=119000 frames=1902314 upd=950008 best=1801 replay=50000 speed=50 f/s
+12:08:33 round=119200 frames=1905514 upd=951608 best=1801 replay=50000 speed=50 f/s
+12:09:17 ep=1670 score=588 best=1801 frames=1908198 upd=952944 sp=50f/s
+12:09:26 round=119400 frames=1908714 upd=953208 best=1801 replay=50000 speed=50 f/s
+12:10:18 round=119600 frames=1911914 upd=954808 best=1801 replay=50000 speed=50 f/s
+12:10:50 ep=1673 score=1968 best=1968 frames=1913852 upd=955776 sp=51f/s
+12:11:12 round=119800 frames=1915112 upd=956408 best=1968 replay=50000 speed=51 f/s
+12:12:05 round=120000 frames=1918312 upd=958008 best=1968 replay=50000 speed=51 f/s
+12:12:58 round=120200 frames=1921507 upd=959608 best=1968 replay=50000 speed=51 f/s
+12:13:50 round=120400 frames=1924707 upd=961208 best=1968 replay=50000 speed=51 f/s
+12:14:42 round=120600 frames=1927907 upd=962808 best=1968 replay=50000 speed=51 f/s
+12:15:35 round=120800 frames=1931107 upd=964408 best=1968 replay=50000 speed=51 f/s
+12:16:28 round=121000 frames=1934303 upd=966008 best=1968 replay=50000 speed=51 f/s
+12:16:28 ep=1680 score=496 best=1968 frames=1934315 upd=966008 sp=51f/s
+12:17:22 round=121200 frames=1937501 upd=967608 best=1968 replay=50000 speed=51 f/s
+12:18:15 round=121400 frames=1940701 upd=969208 best=1968 replay=50000 speed=51 f/s
+12:19:09 round=121600 frames=1943901 upd=970808 best=1968 replay=50000 speed=51 f/s
+12:20:02 round=121800 frames=1947101 upd=972408 best=1968 replay=50000 speed=51 f/s
+12:20:54 round=122000 frames=1950301 upd=974008 best=1968 replay=50000 speed=51 f/s
+12:21:47 round=122200 frames=1953501 upd=975608 best=1968 replay=50000 speed=51 f/s
+12:22:41 round=122400 frames=1956699 upd=977208 best=1968 replay=50000 speed=51 f/s
+12:23:35 round=122600 frames=1959896 upd=978808 best=1968 replay=50000 speed=51 f/s
+12:24:27 round=122800 frames=1963096 upd=980408 best=1968 replay=50000 speed=51 f/s
+12:24:53 ep=1690 score=291 best=1968 frames=1964688 upd=981200 sp=51f/s
+12:25:20 round=123000 frames=1966294 upd=982008 best=1968 replay=50000 speed=51 f/s
+12:26:13 round=123200 frames=1969494 upd=983608 best=1968 replay=50000 speed=51 f/s
+12:27:06 round=123400 frames=1972692 upd=985208 best=1968 replay=50000 speed=51 f/s
+12:27:59 round=123600 frames=1975892 upd=986808 best=1968 replay=50000 speed=51 f/s
+12:28:53 round=123800 frames=1979089 upd=988408 best=1968 replay=50000 speed=51 f/s
+12:29:46 round=124000 frames=1982289 upd=990008 best=1968 replay=50000 speed=51 f/s
+12:30:38 round=124200 frames=1985489 upd=991608 best=1968 replay=50000 speed=51 f/s
+12:31:31 round=124400 frames=1988687 upd=993208 best=1968 replay=50000 speed=51 f/s
+12:32:24 round=124600 frames=1991887 upd=994808 best=1968 replay=50000 speed=51 f/s
+12:33:17 round=124800 frames=1995087 upd=996408 best=1968 replay=50000 speed=51 f/s
+12:34:10 round=125000 frames=1998287 upd=998008 best=1968 replay=50000 speed=51 f/s
+12:35:02 round=125200 frames=2001487 upd=999608 best=1968 replay=50000 speed=51 f/s
+12:35:56 round=125400 frames=2004687 upd=1001208 best=1968 replay=50000 speed=51 f/s
+12:35:56 ep=1700 score=2132 best=2132 frames=2004697 upd=1001208 sp=51f/s
+12:35:56 TARGET REACHED best=2132
+12:35:57 cleaned up

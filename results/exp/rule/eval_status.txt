@@ -1,0 +1,8 @@
+01:30:52 eval policy=rule name=rule obs=state episodes=50 n_envs=4
+01:33:00 done 10/50 last=2995
+01:34:15 done 20/50 last=2995
+01:36:09 done 30/50 last=2995
+01:37:23 done 40/50 last=2995
+01:39:04 done 50/50 last=2995
+01:39:04 EVAL DONE {'policy': 'rule', 'name': 'rule', 'n': 50, 'mean': np.float64(2995.0), 'median': 2995.0, 'std': np.float64(0.0), 'min': np.float64(2995.0), 'max': np.float64(2995.0), 'p25': 2995.0, 'p75': 2995.0, 'seconds': 484.3}
+01:39:05 cleaned up

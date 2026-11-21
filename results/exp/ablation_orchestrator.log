@@ -1,0 +1,89 @@
+[2026-11-21 08:15:06] ===== ablation orchestrator start pid=90770 slots=2 n_envs=2 eval_envs=4 =====
+[2026-11-21 08:15:06]   plan ppo_vision             anchor=ppo_vision  eval-only
+[2026-11-21 08:15:06]   plan state_dqn              anchor=state_dqn   eval-only
+[2026-11-21 08:15:06]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 08:15:06]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 08:15:06]   plan abl_ppo_nonorm         anchor=ppo_vision  train_ppo.py --name abl_ppo_nonorm --no-adv-norm
+[2026-11-21 08:15:06]   plan abl_ppo_clip01         anchor=ppo_vision  train_ppo.py --name abl_ppo_clip01 --clip 0.1
+[2026-11-21 08:15:06]   plan abl_state_notype       anchor=state_dqn   train_offpolicy.py --name abl_state_notype --algo ddqn --obs state --feat-mask notype
+[2026-11-21 08:15:06]   plan abl_state_notrex       anchor=state_dqn   train_offpolicy.py --name abl_state_notrex --algo ddqn --obs state --feat-mask notrex
+[2026-11-21 08:15:06]   plan abl_state_noheight     anchor=state_dqn   train_offpolicy.py --name abl_state_noheight --algo ddqn --obs state --feat-mask noheight
+[2026-11-21 08:15:06]   plan abl_state_distonly     anchor=state_dqn   train_offpolicy.py --name abl_state_distonly --algo ddqn --obs state --feat-mask distonly
+[2026-11-21 08:15:06]   plan abl_obs_stack1         anchor=ppo_vision  train_ppo.py --name abl_obs_stack1 --frame-stack 1
+[2026-11-21 08:15:06]   plan abl_obs_stack2         anchor=ppo_vision  train_ppo.py --name abl_obs_stack2 --frame-stack 2
+[2026-11-21 08:15:06]   plan abl_obs_res64          anchor=ppo_vision  train_ppo.py --name abl_obs_res64 --obs-res 64
+[2026-11-21 08:15:06]   plan abl_rew_nostep         anchor=ppo_vision  train_ppo.py --name abl_rew_nostep --step-reward 0
+[2026-11-21 08:15:06]   plan abl_rew_nopenalty      anchor=ppo_vision  train_ppo.py --name abl_rew_nopenalty --early-penalty 0
+[2026-11-21 08:15:06]   plan abl_rew_sparse         anchor=ppo_vision  train_ppo.py --name abl_rew_sparse --step-reward 0 --early-penalty 0
+[2026-11-21 08:15:06] dry-run only - exiting
+[2026-11-21 08:17:43] ===== ablation orchestrator start pid=92991 slots=2 n_envs=2 eval_envs=4 =====
+[2026-11-21 08:17:43]   plan ppo_vision             anchor=ppo_vision  eval-only
+[2026-11-21 08:17:43]   plan state_dqn              anchor=state_dqn   eval-only
+[2026-11-21 08:17:43]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 08:17:43]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 08:17:43]   plan abl_ppo_nonorm         anchor=ppo_vision  train_ppo.py --name abl_ppo_nonorm --no-adv-norm
+[2026-11-21 08:17:43]   plan abl_ppo_clip01         anchor=ppo_vision  train_ppo.py --name abl_ppo_clip01 --clip 0.1
+[2026-11-21 08:17:43]   plan abl_state_notype       anchor=state_dqn   train_offpolicy.py --name abl_state_notype --algo ddqn --obs state --feat-mask notype
+[2026-11-21 08:17:43]   plan abl_state_notrex       anchor=state_dqn   train_offpolicy.py --name abl_state_notrex --algo ddqn --obs state --feat-mask notrex
+[2026-11-21 08:17:43]   plan abl_state_noheight     anchor=state_dqn   train_offpolicy.py --name abl_state_noheight --algo ddqn --obs state --feat-mask noheight
+[2026-11-21 08:17:43]   plan abl_state_distonly     anchor=state_dqn   train_offpolicy.py --name abl_state_distonly --algo ddqn --obs state --feat-mask distonly
+[2026-11-21 08:17:43]   plan abl_obs_stack1         anchor=ppo_vision  train_ppo.py --name abl_obs_stack1 --frame-stack 1
+[2026-11-21 08:17:43]   plan abl_obs_stack2         anchor=ppo_vision  train_ppo.py --name abl_obs_stack2 --frame-stack 2
+[2026-11-21 08:17:43]   plan abl_obs_res64          anchor=ppo_vision  train_ppo.py --name abl_obs_res64 --obs-res 64
+[2026-11-21 08:17:43]   plan abl_rew_nostep         anchor=ppo_vision  train_ppo.py --name abl_rew_nostep --step-reward 0
+[2026-11-21 08:17:43]   plan abl_rew_nopenalty      anchor=ppo_vision  train_ppo.py --name abl_rew_nopenalty --early-penalty 0
+[2026-11-21 08:17:43]   plan abl_rew_sparse         anchor=ppo_vision  train_ppo.py --name abl_rew_sparse --step-reward 0 --early-penalty 0
+[2026-11-21 08:17:43] ppo_vision: EVAL start (eval_policy.py --policy model --name ppo_vision --ckpt results/exp/ppo_vision/best.pt --n-envs 4 --episodes 50)
+[2026-11-21 08:17:43] state_dqn: EVAL start (eval_policy.py --policy model --name state_dqn --ckpt results/exp/state_dqn/best.pt --n-envs 4 --episodes 50)
+[2026-11-21 08:35:46] state_dqn: EVAL done rc=0 wall=18.1min
+[2026-11-21 08:35:46] abl_ppo_noent: TRAIN start  (train_ppo.py --name abl_ppo_noent --entropy-coef 0.0 --frames 2230000 --n-envs 2 --hours 24)
+[2026-11-21 09:01:21] ppo_vision: EVAL done rc=0 wall=43.6min
+[2026-11-21 09:01:21] abl_ppo_nogae: TRAIN start  (train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0 --frames 2230000 --n-envs 2 --hours 24)
+[2026-11-21 09:55:07] ===== ablation orchestrator start pid=179247 slots=2 n_envs=4 eval_envs=4 variants=4/16 =====
+[2026-11-21 09:55:07]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 09:55:07]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 09:55:07]   plan abl_state_notype       anchor=state_dqn   train_offpolicy.py --name abl_state_notype --algo ddqn --obs state --feat-mask notype
+[2026-11-21 09:55:07]   plan abl_obs_stack1         anchor=ppo_vision  train_ppo.py --name abl_obs_stack1 --frame-stack 1
+[2026-11-21 09:55:07] abl_ppo_noent: wiping stale dir /root/DinoRL/results/exp/abl_ppo_noent
+[2026-11-21 09:55:07] abl_ppo_nogae: wiping stale dir /root/DinoRL/results/exp/abl_ppo_nogae
+[2026-11-21 09:55:07] abl_ppo_noent: TRAIN start  (train_ppo.py --name abl_ppo_noent --entropy-coef 0.0 --frames 1200000 --n-envs 4 --hours 24)
+[2026-11-21 09:55:07] abl_ppo_nogae: TRAIN start  (train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0 --frames 1200000 --n-envs 4 --hours 24)
+[2026-11-21 10:09:22] ===== ablation orchestrator start pid=199485 slots=2 n_envs=4 eval_envs=4 variants=2/16 =====
+[2026-11-21 10:09:22]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 10:09:22]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 10:09:22] abl_ppo_nogae: wiping stale dir /root/DinoRL/results/exp/abl_ppo_nogae
+[2026-11-21 10:09:22] abl_ppo_noent: wiping stale dir /root/DinoRL/results/exp/abl_ppo_noent
+[2026-11-21 10:09:22] abl_ppo_nogae: TRAIN start  (train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0 --frames 2230000 --n-envs 4 --hours 24)
+[2026-11-21 10:09:22] abl_ppo_noent: TRAIN start  (train_ppo.py --name abl_ppo_noent --entropy-coef 0.0 --frames 2230000 --n-envs 4 --hours 24)
+[2026-11-21 11:27:09] abl_ppo_noent: TRAIN done rc=0 wall=77.8min
+[2026-11-21 11:27:09] abl_ppo_noent: EVAL start (eval_policy.py --policy model --name abl_ppo_noent --ckpt results/exp/abl_ppo_noent/best.pt --n-envs 4 --episodes 50)
+[2026-11-21 11:31:39] abl_ppo_nogae: TRAIN done rc=0 wall=82.3min
+[2026-11-21 11:31:39] abl_ppo_nogae: EVAL start (eval_policy.py --policy model --name abl_ppo_nogae --ckpt results/exp/abl_ppo_nogae/best.pt --n-envs 4 --episodes 50)
+[2026-11-21 11:46:02] abl_ppo_nogae: EVAL done rc=0 wall=14.4min
+[2026-11-21 11:53:46] abl_ppo_noent: EVAL done rc=0 wall=26.6min
+[2026-11-21 11:53:46] ===== ablation orchestrator finished =====
+[2026-11-21 11:53:46]   OK  abl_ppo_noent
+[2026-11-21 11:53:46]   OK  abl_ppo_nogae
+[2026-11-21 15:41:42] ===== ablation orchestrator start pid=428541 slots=2 n_envs=4 eval_envs=4 variants=16/16 =====
+[2026-11-21 15:41:42]   plan ppo_vision             anchor=ppo_vision  eval-only
+[2026-11-21 15:41:42]   plan state_dqn              anchor=state_dqn   eval-only
+[2026-11-21 15:41:42]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 15:41:42]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 15:41:42]   plan abl_ppo_nonorm         anchor=ppo_vision  train_ppo.py --name abl_ppo_nonorm --no-adv-norm
+[2026-11-21 15:41:42]   plan abl_ppo_clip01         anchor=ppo_vision  train_ppo.py --name abl_ppo_clip01 --clip 0.1
+[2026-11-21 15:41:42]   plan abl_state_notype       anchor=state_dqn   train_offpolicy.py --name abl_state_notype --algo ddqn --obs state --feat-mask notype
+[2026-11-21 15:41:42]   plan abl_state_notrex       anchor=state_dqn   train_offpolicy.py --name abl_state_notrex --algo ddqn --obs state --feat-mask notrex
+[2026-11-21 15:41:42]   plan abl_state_noheight     anchor=state_dqn   train_offpolicy.py --name abl_state_noheight --algo ddqn --obs state --feat-mask noheight
+[2026-11-21 15:41:42]   plan abl_state_distonly     anchor=state_dqn   train_offpolicy.py --name abl_state_distonly --algo ddqn --obs state --feat-mask distonly
+[2026-11-21 15:41:42]   plan abl_obs_stack1         anchor=ppo_vision  train_ppo.py --name abl_obs_stack1 --frame-stack 1
+[2026-11-21 15:41:42]   plan abl_obs_stack2         anchor=ppo_vision  train_ppo.py --name abl_obs_stack2 --frame-stack 2
+[2026-11-21 15:41:42]   plan abl_obs_res64          anchor=ppo_vision  train_ppo.py --name abl_obs_res64 --obs-res 64
+[2026-11-21 15:41:42]   plan abl_rew_nostep         anchor=ppo_vision  train_ppo.py --name abl_rew_nostep --step-reward 0
+[2026-11-21 15:41:42]   plan abl_rew_nopenalty      anchor=ppo_vision  train_ppo.py --name abl_rew_nopenalty --early-penalty 0
+[2026-11-21 15:41:42]   plan abl_rew_sparse         anchor=ppo_vision  train_ppo.py --name abl_rew_sparse --step-reward 0 --early-penalty 0
+[2026-11-21 15:41:42] ppo_vision: already evaluated - skip
+[2026-11-21 15:41:42] state_dqn: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_noent: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_nogae: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_nonorm: TRAIN start  (train_ppo.py --name abl_ppo_nonorm --no-adv-norm --frames 2230000 --n-envs 4 --hours 24)
+[2026-11-21 15:41:42] abl_ppo_clip01: TRAIN start  (train_ppo.py --name abl_ppo_clip01 --clip 0.1 --frames 2230000 --n-envs 4 --hours 24)

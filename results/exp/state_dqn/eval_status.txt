@@ -1,0 +1,9 @@
+08:17:46 loaded results/exp/state_dqn/best.pt algo=ddqn obs=state atoms=0 frame_stack=4 obs_res=80 feat_mask=None train_best=2103.0
+08:17:46 eval policy=model name=state_dqn obs=state episodes=50 n_envs=4
+08:22:55 done 10/50 last=2995
+08:26:51 done 20/50 last=2995
+08:28:34 done 30/50 last=2354
+08:31:43 done 40/50 last=2995
+08:35:44 done 50/50 last=2995
+08:35:45 EVAL DONE {'policy': 'model', 'name': 'state_dqn', 'n': 50, 'mean': np.float64(1879.54), 'median': 1904.5, 'std': np.float64(1019.34), 'min': np.float64(248.0), 'max': np.float64(2995.0), 'p25': 1176.25, 'p75': 2995.0, 'seconds': 1064.5}
+08:35:45 cleaned up

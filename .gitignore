@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+gamescaling/=*
+gamescaling/model/
+*.lock
+*.incomplete
+*.metadata

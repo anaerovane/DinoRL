@@ -1,0 +1,9 @@
+12:59:35 loaded results/exp/c51_vision/best.pt algo=c51 obs=vision atoms=51 frame_stack=4 obs_res=80 feat_mask=None train_best=2132.0
+12:59:35 eval policy=model name=c51 obs=vision episodes=50 n_envs=4
+12:59:47 done 10/50 last=45
+12:59:51 done 20/50 last=52
+12:59:55 done 30/50 last=45
+12:59:59 done 40/50 last=45
+13:00:03 done 50/50 last=45
+13:00:03 EVAL DONE {'policy': 'model', 'name': 'c51', 'n': 50, 'mean': np.float64(46.4), 'median': 45.0, 'std': np.float64(4.13), 'min': np.float64(44.0), 'max': np.float64(66.0), 'p25': 45.0, 'p75': 45.0, 'seconds': 19.7}
+13:00:03 cleaned up

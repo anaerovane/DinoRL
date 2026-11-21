@@ -1,0 +1,2 @@
+01:48:00 loaded results/exp/smoke_bc/best.pt algo=bc obs=vision atoms=0 train_best=0
+01:48:00 eval policy=model name=smoke_bc_eval obs=vision episodes=1 n_envs=1

@@ -1,0 +1,18 @@
+15:41:43 start ppo frames_budget=2230000 n_envs=4 rollout_rounds=64 minibatch=256 epochs=4 frame_stack=4 obs_res=80 adv_norm=True step_reward=0.1 crash_penalty=1.0 early_penalty=5.0 device=cuda
+15:41:45 spawning environments...
+15:41:50 4 envs ready
+15:41:53 all envs reset
+15:41:56 ep=1 score=45 best=45 frames=1328 upd=1 sp=443f/s
+15:41:56 ep=2 score=54 best=54 frames=1571 upd=1 sp=462f/s
+15:42:02 ep=10 score=44 best=54 frames=4268 upd=4 sp=459f/s
+15:42:02 ep=11 score=58 best=58 frames=4323 upd=4 sp=456f/s
+15:42:03 ep=12 score=69 best=69 frames=5078 upd=4 sp=466f/s
+15:42:10 ep=20 score=54 best=69 frames=8238 upd=8 sp=476f/s
+15:42:14 update=10 frames=10205 best=69 pi=0.0017 v=13.5167 ent=0.6784 sp=468 f/s
+15:42:17 ep=30 score=65 best=69 frames=11476 upd=11 sp=470f/s
+15:42:18 ep=31 score=70 best=70 frames=11928 upd=11 sp=470f/s
+15:42:27 ep=40 score=54 best=70 frames=15240 upd=14 sp=441f/s
+15:42:37 ep=50 score=46 best=70 frames=19247 upd=18 sp=429f/s
+15:42:40 update=20 frames=20413 best=70 pi=-0.0020 v=4.5650 ent=0.5771 sp=429 f/s
+15:42:45 ep=60 score=44 best=70 frames=22381 upd=21 sp=428f/s
+15:42:54 ep=70 score=44 best=70 frames=26089 upd=25 sp=427f/s

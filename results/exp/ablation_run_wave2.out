@@ -1,0 +1,60 @@
+[2026-11-21 15:41:42] ===== ablation orchestrator start pid=428541 slots=2 n_envs=4 eval_envs=4 variants=16/16 =====
+[2026-11-21 15:41:42]   plan ppo_vision             anchor=ppo_vision  eval-only
+[2026-11-21 15:41:42]   plan state_dqn              anchor=state_dqn   eval-only
+[2026-11-21 15:41:42]   plan abl_ppo_noent          anchor=ppo_vision  train_ppo.py --name abl_ppo_noent --entropy-coef 0.0
+[2026-11-21 15:41:42]   plan abl_ppo_nogae          anchor=ppo_vision  train_ppo.py --name abl_ppo_nogae --gae-lambda 1.0
+[2026-11-21 15:41:42]   plan abl_ppo_nonorm         anchor=ppo_vision  train_ppo.py --name abl_ppo_nonorm --no-adv-norm
+[2026-11-21 15:41:42]   plan abl_ppo_clip01         anchor=ppo_vision  train_ppo.py --name abl_ppo_clip01 --clip 0.1
+[2026-11-21 15:41:42]   plan abl_state_notype       anchor=state_dqn   train_offpolicy.py --name abl_state_notype --algo ddqn --obs state --feat-mask notype
+[2026-11-21 15:41:42]   plan abl_state_notrex       anchor=state_dqn   train_offpolicy.py --name abl_state_notrex --algo ddqn --obs state --feat-mask notrex
+[2026-11-21 15:41:42]   plan abl_state_noheight     anchor=state_dqn   train_offpolicy.py --name abl_state_noheight --algo ddqn --obs state --feat-mask noheight
+[2026-11-21 15:41:42]   plan abl_state_distonly     anchor=state_dqn   train_offpolicy.py --name abl_state_distonly --algo ddqn --obs state --feat-mask distonly
+[2026-11-21 15:41:42]   plan abl_obs_stack1         anchor=ppo_vision  train_ppo.py --name abl_obs_stack1 --frame-stack 1
+[2026-11-21 15:41:42]   plan abl_obs_stack2         anchor=ppo_vision  train_ppo.py --name abl_obs_stack2 --frame-stack 2
+[2026-11-21 15:41:42]   plan abl_obs_res64          anchor=ppo_vision  train_ppo.py --name abl_obs_res64 --obs-res 64
+[2026-11-21 15:41:42]   plan abl_rew_nostep         anchor=ppo_vision  train_ppo.py --name abl_rew_nostep --step-reward 0
+[2026-11-21 15:41:42]   plan abl_rew_nopenalty      anchor=ppo_vision  train_ppo.py --name abl_rew_nopenalty --early-penalty 0
+[2026-11-21 15:41:42]   plan abl_rew_sparse         anchor=ppo_vision  train_ppo.py --name abl_rew_sparse --step-reward 0 --early-penalty 0
+[2026-11-21 15:41:42] ppo_vision: already evaluated - skip
+[2026-11-21 15:41:42] state_dqn: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_noent: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_nogae: already evaluated - skip
+[2026-11-21 15:41:42] abl_ppo_nonorm: TRAIN start  (train_ppo.py --name abl_ppo_nonorm --no-adv-norm --frames 2230000 --n-envs 4 --hours 24)
+[2026-11-21 15:41:42] abl_ppo_clip01: TRAIN start  (train_ppo.py --name abl_ppo_clip01 --clip 0.1 --frames 2230000 --n-envs 4 --hours 24)
+15:41:43 start ppo frames_budget=2230000 n_envs=4 rollout_rounds=64 minibatch=256 epochs=4 frame_stack=4 obs_res=80 adv_norm=False step_reward=0.1 crash_penalty=1.0 early_penalty=5.0 device=cuda
+15:41:43 start ppo frames_budget=2230000 n_envs=4 rollout_rounds=64 minibatch=256 epochs=4 frame_stack=4 obs_res=80 adv_norm=True step_reward=0.1 crash_penalty=1.0 early_penalty=5.0 device=cuda
+15:41:45 spawning environments...
+15:41:45 spawning environments...
+15:41:50 4 envs ready
+15:41:50 4 envs ready
+15:41:52 all envs reset
+15:41:53 all envs reset
+15:41:55 ep=1 score=45 best=45 frames=1328 upd=1 sp=477f/s
+15:41:56 ep=1 score=45 best=45 frames=1328 upd=1 sp=443f/s
+15:41:56 ep=2 score=53 best=53 frames=1555 upd=1 sp=469f/s
+15:41:56 ep=3 score=54 best=54 frames=1572 upd=1 sp=456f/s
+15:41:56 ep=2 score=54 best=54 frames=1571 upd=1 sp=462f/s
+15:41:59 ep=7 score=59 best=59 frames=3256 upd=3 sp=470f/s
+15:42:01 ep=10 score=45 best=59 frames=4255 upd=4 sp=470f/s
+15:42:02 ep=10 score=44 best=54 frames=4268 upd=4 sp=459f/s
+15:42:02 ep=11 score=58 best=58 frames=4323 upd=4 sp=456f/s
+15:42:03 ep=12 score=64 best=64 frames=5092 upd=4 sp=477f/s
+15:42:03 ep=12 score=69 best=69 frames=5078 upd=4 sp=466f/s
+15:42:09 ep=20 score=45 best=64 frames=8279 upd=8 sp=485f/s
+15:42:10 ep=20 score=54 best=69 frames=8238 upd=8 sp=476f/s
+15:42:14 update=10 frames=10209 best=64 pi=-0.5433 v=10.7797 ent=0.6585 sp=480 f/s
+15:42:14 update=10 frames=10205 best=69 pi=0.0017 v=13.5167 ent=0.6784 sp=468 f/s
+15:42:17 ep=30 score=52 best=64 frames=11744 upd=11 sp=480f/s
+15:42:17 ep=30 score=65 best=69 frames=11476 upd=11 sp=470f/s
+15:42:18 ep=31 score=70 best=70 frames=11928 upd=11 sp=470f/s
+15:42:27 ep=40 score=54 best=70 frames=15240 upd=14 sp=441f/s
+15:42:27 ep=39 score=70 best=70 frames=15285 upd=14 sp=438f/s
+15:42:28 ep=40 score=51 best=70 frames=15583 upd=15 sp=436f/s
+15:42:37 ep=50 score=46 best=70 frames=19247 upd=18 sp=429f/s
+15:42:37 ep=50 score=44 best=70 frames=19583 upd=19 sp=434f/s
+15:42:39 update=20 frames=20415 best=70 pi=0.1037 v=7.4271 ent=0.6920 sp=434 f/s
+15:42:40 update=20 frames=20413 best=70 pi=-0.0020 v=4.5650 ent=0.5771 sp=429 f/s
+15:42:41 ep=53 score=140 best=140 frames=21110 upd=20 sp=437f/s
+15:42:45 ep=60 score=44 best=70 frames=22381 upd=21 sp=428f/s
+15:42:45 ep=60 score=45 best=140 frames=23180 upd=22 sp=440f/s
+15:42:54 ep=70 score=44 best=70 frames=26089 upd=25 sp=427f/s

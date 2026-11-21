@@ -1,0 +1,9 @@
+01:30:53 loaded results/dino_trained_best.pt algo=ddqn obs=vision atoms=0 train_best=877.0
+01:30:53 eval policy=model name=ddqn obs=vision episodes=50 n_envs=4
+01:31:07 done 10/50 last=45
+01:31:12 done 20/50 last=83
+01:31:17 done 30/50 last=74
+01:31:23 done 40/50 last=44
+01:31:27 done 50/50 last=75
+01:31:27 EVAL DONE {'policy': 'model', 'name': 'ddqn', 'n': 50, 'mean': np.float64(56.44), 'median': 54.5, 'std': np.float64(13.22), 'min': np.float64(44.0), 'max': np.float64(90.0), 'p25': 45.0, 'p75': 63.0, 'seconds': 26.9}
+01:31:27 cleaned up

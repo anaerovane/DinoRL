@@ -1,0 +1,9 @@
+15:55:18 loaded results/exp/abl_state_notype/best.pt algo=ddqn obs=state atoms=0 frame_stack=4 obs_res=80 feat_mask=notype train_best=2016.0
+15:55:18 eval policy=model name=abl_state_notype obs=state episodes=50 n_envs=4
+15:56:39 done 10/50 last=694
+15:57:24 done 20/50 last=721
+15:58:05 done 30/50 last=2995
+15:58:54 done 40/50 last=236
+15:59:45 done 50/50 last=2683
+15:59:45 EVAL DONE {'policy': 'model', 'name': 'abl_state_notype', 'n': 50, 'mean': np.float64(1284.48), 'median': 911.5, 'std': np.float64(979.91), 'min': np.float64(150.0), 'max': np.float64(2995.0), 'p25': 694.5, 'p75': 2383.5, 'seconds': 259.7}
+15:59:46 cleaned up

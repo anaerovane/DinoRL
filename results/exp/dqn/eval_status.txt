@@ -1,0 +1,9 @@
+12:58:52 loaded results/exp/dqn_vision/best.pt algo=dqn obs=vision atoms=0 frame_stack=4 obs_res=80 feat_mask=None train_best=1735.0
+12:58:52 eval policy=model name=dqn obs=vision episodes=50 n_envs=4
+12:59:08 done 10/50 last=44
+12:59:13 done 20/50 last=54
+12:59:18 done 30/50 last=96
+12:59:24 done 40/50 last=84
+12:59:30 done 50/50 last=63
+12:59:30 EVAL DONE {'policy': 'model', 'name': 'dqn', 'n': 50, 'mean': np.float64(66.38), 'median': 61.0, 'std': np.float64(23.98), 'min': np.float64(44.0), 'max': np.float64(180.0), 'p25': 53.25, 'p75': 71.75, 'seconds': 29.4}
+12:59:30 cleaned up

@@ -1,0 +1,324 @@
+10:09:24 start ppo frames_budget=2230000 n_envs=4 rollout_rounds=64 minibatch=256 epochs=4 frame_stack=4 obs_res=80 adv_norm=True step_reward=0.1 crash_penalty=1.0 early_penalty=5.0 device=cuda
+10:09:26 spawning environments...
+10:09:37 4 envs ready
+10:09:40 all envs reset
+10:09:47 ep=1 score=44 best=44 frames=1327 upd=1 sp=196f/s
+10:09:48 ep=2 score=53 best=53 frames=1554 upd=1 sp=188f/s
+10:09:49 ep=3 score=54 best=54 frames=1571 upd=1 sp=183f/s
+10:09:49 ep=4 score=57 best=57 frames=1639 upd=1 sp=183f/s
+10:09:57 ep=7 score=65 best=65 frames=3420 upd=3 sp=203f/s
+10:09:58 ep=8 score=71 best=71 frames=3683 upd=3 sp=200f/s
+10:10:01 ep=10 score=44 best=71 frames=4267 upd=4 sp=199f/s
+10:10:11 ep=14 score=88 best=88 frames=5904 upd=5 sp=188f/s
+10:10:27 ep=20 score=44 best=88 frames=8329 upd=8 sp=178f/s
+10:10:36 update=10 frames=10210 best=88 pi=0.0030 v=14.1974 ent=0.6721 sp=182 f/s
+10:10:45 ep=30 score=53 best=88 frames=12441 upd=12 sp=190f/s
+10:11:00 ep=37 score=108 best=108 frames=15442 upd=15 sp=194f/s
+10:11:06 ep=40 score=45 best=108 frames=16770 upd=16 sp=196f/s
+10:11:23 update=20 frames=20435 best=108 pi=-0.0031 v=10.1859 ent=0.6463 sp=199 f/s
+10:11:24 ep=50 score=44 best=108 frames=20836 upd=20 sp=200f/s
+10:11:44 ep=60 score=59 best=108 frames=24774 upd=24 sp=200f/s
+10:12:01 ep=68 score=126 best=126 frames=28254 upd=27 sp=201f/s
+10:12:06 ep=70 score=43 best=126 frames=29364 upd=28 sp=201f/s
+10:12:12 update=30 frames=30648 best=126 pi=0.0010 v=5.9185 ent=0.1837 sp=201 f/s
+10:12:30 ep=80 score=70 best=126 frames=34274 upd=33 sp=202f/s
+10:12:49 ep=90 score=59 best=126 frames=38098 upd=37 sp=201f/s
+10:13:02 update=40 frames=40867 best=126 pi=-0.0002 v=3.0345 ent=0.1397 sp=202 f/s
+10:13:08 ep=100 score=54 best=126 frames=41932 upd=41 sp=202f/s
+10:13:28 ep=110 score=43 best=126 frames=46145 upd=45 sp=202f/s
+10:13:50 ep=120 score=97 best=126 frames=50761 upd=49 sp=203f/s
+10:13:52 update=50 frames=51089 best=126 pi=-0.0004 v=2.8006 ent=0.0477 sp=203 f/s
+10:14:11 ep=130 score=70 best=126 frames=55029 upd=53 sp=203f/s
+10:14:31 ep=140 score=53 best=126 frames=58997 upd=57 sp=203f/s
+10:14:43 update=60 frames=61301 best=126 pi=-0.0004 v=5.9161 ent=0.1450 sp=203 f/s
+10:14:57 ep=150 score=60 best=126 frames=64094 upd=62 sp=202f/s
+10:15:20 ep=160 score=43 best=126 frames=68813 upd=67 sp=203f/s
+10:15:33 update=70 frames=71509 best=126 pi=-0.0002 v=3.5370 ent=0.0289 sp=202 f/s
+10:15:40 ep=170 score=43 best=126 frames=72924 upd=71 sp=202f/s
+10:15:58 ep=180 score=53 best=126 frames=76275 upd=74 sp=202f/s
+10:16:19 ep=190 score=43 best=126 frames=80795 upd=79 sp=202f/s
+10:16:24 update=80 frames=81727 best=126 pi=0.0000 v=2.4665 ent=0.0337 sp=202 f/s
+10:16:44 ep=200 score=75 best=126 frames=85994 upd=84 sp=203f/s
+10:17:07 ep=210 score=60 best=126 frames=90861 upd=88 sp=203f/s
+10:17:10 ep=211 score=151 best=151 frames=91577 upd=89 sp=203f/s
+10:17:12 update=90 frames=91941 best=151 pi=-0.0001 v=2.9728 ent=0.0111 sp=204 f/s
+10:17:29 ep=220 score=54 best=151 frames=95578 upd=93 sp=204f/s
+10:17:51 ep=230 score=54 best=151 frames=100413 upd=98 sp=204f/s
+10:18:00 update=100 frames=102156 best=151 pi=-0.0001 v=5.0990 ent=0.0100 sp=204 f/s
+10:18:14 ep=240 score=64 best=151 frames=105319 upd=103 sp=205f/s
+10:18:37 ep=250 score=53 best=151 frames=110257 upd=107 sp=205f/s
+10:18:47 update=110 frames=112371 best=151 pi=-0.0000 v=5.6029 ent=0.0059 sp=206 f/s
+10:18:59 ep=260 score=70 best=151 frames=114924 upd=112 sp=206f/s
+10:19:17 ep=270 score=59 best=151 frames=118841 upd=116 sp=206f/s
+10:19:35 update=120 frames=122586 best=151 pi=0.0002 v=3.6883 ent=0.0249 sp=206 f/s
+10:19:39 ep=280 score=54 best=151 frames=123604 upd=120 sp=206f/s
+10:20:02 ep=290 score=59 best=151 frames=128277 upd=125 sp=206f/s
+10:20:22 ep=300 score=54 best=151 frames=132691 upd=129 sp=207f/s
+10:20:23 update=130 frames=132803 best=151 pi=-0.0004 v=2.2622 ent=0.0184 sp=206 f/s
+10:20:42 ep=310 score=59 best=151 frames=136753 upd=133 sp=207f/s
+10:21:04 ep=320 score=75 best=151 frames=141608 upd=138 sp=207f/s
+10:21:11 update=140 frames=143010 best=151 pi=0.0009 v=1.7324 ent=0.0109 sp=207 f/s
+10:21:23 ep=330 score=86 best=151 frames=145524 upd=142 sp=207f/s
+10:21:45 ep=340 score=59 best=151 frames=150252 upd=147 sp=207f/s
+10:21:59 update=150 frames=153227 best=151 pi=-0.0001 v=2.0123 ent=0.0116 sp=207 f/s
+10:22:08 ep=350 score=70 best=151 frames=155114 upd=151 sp=207f/s
+10:22:27 ep=360 score=64 best=151 frames=159116 upd=155 sp=207f/s
+10:22:47 update=160 frames=163434 best=151 pi=-0.0004 v=5.7698 ent=0.0134 sp=208 f/s
+10:22:53 ep=370 score=53 best=151 frames=164735 upd=161 sp=208f/s
+10:23:16 ep=380 score=43 best=151 frames=169685 upd=166 sp=208f/s
+10:23:35 update=170 frames=173643 best=151 pi=-0.0002 v=3.2753 ent=0.0115 sp=208 f/s
+10:23:38 ep=390 score=70 best=151 frames=174433 upd=170 sp=208f/s
+10:24:00 ep=400 score=54 best=151 frames=179031 upd=175 sp=208f/s
+10:24:18 ep=410 score=81 best=151 frames=182779 upd=178 sp=208f/s
+10:24:23 update=180 frames=183860 best=151 pi=-0.0003 v=2.8787 ent=0.0103 sp=208 f/s
+10:24:41 ep=420 score=54 best=151 frames=187494 upd=183 sp=208f/s
+10:25:03 ep=430 score=107 best=151 frames=192178 upd=188 sp=208f/s
+10:25:12 update=190 frames=194064 best=151 pi=-0.0001 v=5.4841 ent=0.0060 sp=208 f/s
+10:25:23 ep=440 score=54 best=151 frames=196529 upd=192 sp=208f/s
+10:25:45 ep=450 score=65 best=151 frames=201136 upd=196 sp=208f/s
+10:26:00 update=200 frames=204278 best=151 pi=-0.0004 v=3.2227 ent=0.0062 sp=208 f/s
+10:26:06 ep=460 score=70 best=151 frames=205499 upd=201 sp=208f/s
+10:26:28 ep=470 score=43 best=151 frames=210064 upd=205 sp=208f/s
+10:26:48 update=210 frames=214490 best=151 pi=-0.0001 v=1.9521 ent=0.0116 sp=209 f/s
+10:26:48 ep=480 score=59 best=151 frames=214501 upd=210 sp=209f/s
+10:27:09 ep=490 score=43 best=151 frames=218803 upd=214 sp=209f/s
+10:27:33 ep=500 score=80 best=151 frames=224125 upd=219 sp=209f/s
+10:27:36 update=220 frames=224701 best=151 pi=-0.0000 v=3.9814 ent=0.0022 sp=209 f/s
+10:27:53 ep=510 score=54 best=151 frames=228437 upd=223 sp=209f/s
+10:28:16 ep=520 score=60 best=151 frames=233217 upd=228 sp=209f/s
+10:28:25 update=230 frames=234913 best=151 pi=0.0000 v=0.7858 ent=0.0105 sp=209 f/s
+10:28:35 ep=530 score=59 best=151 frames=237138 upd=232 sp=209f/s
+10:28:49 ep=536 score=167 best=167 frames=240018 upd=234 sp=209f/s
+10:28:59 ep=540 score=81 best=167 frames=242193 upd=237 sp=209f/s
+10:29:13 update=240 frames=245126 best=167 pi=-0.0000 v=5.1040 ent=0.0098 sp=209 f/s
+10:29:21 ep=550 score=70 best=167 frames=246772 upd=241 sp=209f/s
+10:29:42 ep=560 score=43 best=167 frames=251359 upd=246 sp=209f/s
+10:30:01 update=250 frames=255352 best=167 pi=-0.0001 v=1.9564 ent=0.0142 sp=209 f/s
+10:30:04 ep=570 score=54 best=167 frames=255932 upd=250 sp=209f/s
+10:30:24 ep=580 score=59 best=167 frames=260060 upd=254 sp=209f/s
+10:30:46 ep=590 score=59 best=167 frames=264860 upd=259 sp=209f/s
+10:30:50 update=260 frames=265570 best=167 pi=-0.0004 v=1.8388 ent=0.0216 sp=209 f/s
+10:31:05 ep=600 score=59 best=167 frames=268960 upd=263 sp=209f/s
+10:31:24 ep=610 score=59 best=167 frames=272783 upd=267 sp=209f/s
+10:31:38 update=270 frames=275791 best=167 pi=-0.0002 v=2.9003 ent=0.0141 sp=209 f/s
+10:31:46 ep=620 score=54 best=167 frames=277494 upd=271 sp=209f/s
+10:32:06 ep=630 score=54 best=167 frames=281762 upd=275 sp=209f/s
+10:32:26 update=280 frames=285997 best=167 pi=0.0000 v=2.8801 ent=0.0075 sp=209 f/s
+10:32:28 ep=640 score=59 best=167 frames=286340 upd=280 sp=209f/s
+10:32:48 ep=650 score=43 best=167 frames=290636 upd=284 sp=209f/s
+10:33:06 ep=660 score=43 best=167 frames=294360 upd=288 sp=209f/s
+10:33:15 update=290 frames=296209 best=167 pi=0.0000 v=1.6421 ent=0.0065 sp=209 f/s
+10:33:31 ep=670 score=70 best=167 frames=299630 upd=293 sp=209f/s
+10:33:53 ep=680 score=53 best=167 frames=304478 upd=298 sp=210f/s
+10:34:03 update=300 frames=306422 best=167 pi=0.0003 v=2.5865 ent=0.0112 sp=210 f/s
+10:34:16 ep=690 score=59 best=167 frames=309477 upd=302 sp=210f/s
+10:34:35 ep=700 score=59 best=167 frames=313311 upd=306 sp=210f/s
+10:34:50 update=310 frames=316634 best=167 pi=0.0001 v=6.5124 ent=0.0185 sp=210 f/s
+10:34:57 ep=710 score=54 best=167 frames=318164 upd=311 sp=210f/s
+10:35:16 ep=720 score=59 best=167 frames=322193 upd=315 sp=210f/s
+10:35:38 update=320 frames=326847 best=167 pi=-0.0003 v=1.2708 ent=0.0147 sp=210 f/s
+10:35:40 ep=730 score=54 best=167 frames=327167 upd=320 sp=210f/s
+10:36:00 ep=740 score=59 best=167 frames=331291 upd=324 sp=210f/s
+10:36:23 ep=750 score=65 best=167 frames=336478 upd=329 sp=210f/s
+10:36:26 update=330 frames=337066 best=167 pi=-0.0009 v=1.9619 ent=0.0217 sp=210 f/s
+10:36:45 ep=760 score=75 best=167 frames=341018 upd=333 sp=210f/s
+10:37:06 ep=770 score=54 best=167 frames=345595 upd=338 sp=210f/s
+10:37:14 update=340 frames=347281 best=167 pi=-0.0003 v=4.2984 ent=0.0188 sp=210 f/s
+10:37:28 ep=780 score=43 best=167 frames=350370 upd=343 sp=210f/s
+10:37:47 ep=790 score=53 best=167 frames=354138 upd=346 sp=210f/s
+10:38:02 update=350 frames=357480 best=167 pi=0.0002 v=2.5919 ent=0.0169 sp=210 f/s
+10:38:09 ep=800 score=124 best=167 frames=359079 upd=351 sp=210f/s
+10:38:32 ep=810 score=59 best=167 frames=363971 upd=356 sp=210f/s
+10:38:50 update=360 frames=367696 best=167 pi=-0.0006 v=1.4728 ent=0.0185 sp=210 f/s
+10:38:52 ep=820 score=97 best=167 frames=368252 upd=360 sp=210f/s
+10:39:13 ep=830 score=44 best=167 frames=372552 upd=364 sp=210f/s
+10:39:33 ep=840 score=54 best=167 frames=376714 upd=368 sp=210f/s
+10:39:39 update=370 frames=377910 best=167 pi=-0.0012 v=0.6995 ent=0.0366 sp=210 f/s
+10:39:51 ep=850 score=59 best=167 frames=380597 upd=372 sp=210f/s
+10:40:12 ep=860 score=70 best=167 frames=385152 upd=377 sp=210f/s
+10:40:26 update=380 frames=388120 best=167 pi=0.0005 v=1.7121 ent=0.0759 sp=210 f/s
+10:40:33 ep=870 score=75 best=167 frames=389633 upd=381 sp=210f/s
+10:40:50 ep=880 score=54 best=167 frames=393130 upd=384 sp=210f/s
+10:41:15 update=390 frames=398331 best=167 pi=-0.0073 v=2.3778 ent=0.0564 sp=210 f/s
+10:41:15 ep=890 score=76 best=167 frames=398514 upd=390 sp=210f/s
+10:41:39 ep=900 score=54 best=167 frames=403622 upd=395 sp=210f/s
+10:41:59 ep=910 score=70 best=167 frames=407941 upd=399 sp=210f/s
+10:42:02 update=400 frames=408550 best=167 pi=-0.0002 v=1.9560 ent=0.0523 sp=210 f/s
+10:42:23 ep=920 score=54 best=167 frames=412939 upd=404 sp=210f/s
+10:42:45 ep=930 score=54 best=167 frames=417794 upd=409 sp=210f/s
+10:42:51 update=410 frames=418762 best=167 pi=-0.0009 v=5.1693 ent=0.0112 sp=210 f/s
+10:43:08 ep=940 score=54 best=167 frames=422679 upd=413 sp=210f/s
+10:43:27 ep=950 score=97 best=167 frames=426686 upd=417 sp=210f/s
+10:43:38 update=420 frames=428976 best=167 pi=0.0001 v=2.4299 ent=0.0446 sp=210 f/s
+10:43:49 ep=960 score=55 best=167 frames=431288 upd=422 sp=210f/s
+10:44:10 ep=970 score=54 best=167 frames=435681 upd=426 sp=210f/s
+10:44:26 update=430 frames=439191 best=167 pi=-0.0051 v=1.8320 ent=0.0429 sp=210 f/s
+10:44:32 ep=980 score=54 best=167 frames=440392 upd=431 sp=211f/s
+10:44:53 ep=990 score=44 best=167 frames=445125 upd=435 sp=211f/s
+10:45:14 update=440 frames=449396 best=167 pi=0.0022 v=1.5274 ent=0.0280 sp=211 f/s
+10:45:14 ep=1000 score=43 best=167 frames=449576 upd=440 sp=211f/s
+10:45:34 ep=1010 score=102 best=167 frames=453726 upd=444 sp=211f/s
+10:45:53 ep=1020 score=54 best=167 frames=457935 upd=448 sp=211f/s
+10:46:00 update=450 frames=459617 best=167 pi=0.0000 v=5.8061 ent=0.1014 sp=211 f/s
+10:46:15 ep=1030 score=43 best=167 frames=462952 upd=453 sp=211f/s
+10:46:41 ep=1040 score=59 best=167 frames=468549 upd=458 sp=211f/s
+10:46:47 update=460 frames=469836 best=167 pi=0.0009 v=3.1732 ent=0.0612 sp=211 f/s
+10:47:02 ep=1050 score=54 best=167 frames=473114 upd=463 sp=211f/s
+10:47:22 ep=1060 score=44 best=167 frames=477423 upd=467 sp=211f/s
+10:47:34 update=470 frames=480046 best=167 pi=0.0001 v=1.5329 ent=0.0232 sp=211 f/s
+10:47:43 ep=1070 score=53 best=167 frames=482126 upd=472 sp=211f/s
+10:48:04 ep=1080 score=65 best=167 frames=486692 upd=476 sp=211f/s
+10:48:20 update=480 frames=490254 best=167 pi=-0.0031 v=0.8435 ent=0.0539 sp=211 f/s
+10:48:26 ep=1090 score=54 best=167 frames=491504 upd=481 sp=211f/s
+10:48:46 ep=1100 score=54 best=167 frames=495847 upd=485 sp=211f/s
+10:49:07 update=490 frames=500461 best=167 pi=-0.0001 v=1.4721 ent=0.0043 sp=211 f/s
+10:49:10 ep=1110 score=75 best=167 frames=500998 upd=490 sp=211f/s
+10:49:27 ep=1120 score=69 best=167 frames=504557 upd=494 sp=211f/s
+10:49:51 ep=1130 score=53 best=167 frames=509855 upd=499 sp=211f/s
+10:49:55 update=500 frames=510678 best=167 pi=-0.0010 v=1.0959 ent=0.0405 sp=211 f/s
+10:50:12 ep=1140 score=92 best=167 frames=514476 upd=503 sp=212f/s
+10:50:32 ep=1150 score=54 best=167 frames=518873 upd=508 sp=212f/s
+10:50:41 update=510 frames=520895 best=167 pi=-0.0002 v=0.7048 ent=0.0410 sp=212 f/s
+10:50:52 ep=1160 score=59 best=167 frames=523291 upd=512 sp=212f/s
+10:51:14 ep=1170 score=59 best=167 frames=528053 upd=517 sp=212f/s
+10:51:28 update=520 frames=531109 best=167 pi=0.0010 v=1.8332 ent=0.0217 sp=212 f/s
+10:51:35 ep=1180 score=44 best=167 frames=532607 upd=521 sp=212f/s
+10:51:54 ep=1190 score=70 best=167 frames=536765 upd=525 sp=212f/s
+10:52:15 ep=1200 score=44 best=167 frames=541062 upd=529 sp=212f/s
+10:52:16 update=530 frames=541318 best=167 pi=0.0006 v=0.6592 ent=0.0662 sp=212 f/s
+10:52:34 ep=1210 score=43 best=167 frames=545172 upd=533 sp=212f/s
+10:52:58 ep=1220 score=108 best=167 frames=550634 upd=539 sp=212f/s
+10:53:03 update=540 frames=551534 best=167 pi=-0.0006 v=3.7338 ent=0.0940 sp=212 f/s
+10:53:17 ep=1230 score=59 best=167 frames=554535 upd=542 sp=212f/s
+10:53:38 ep=1240 score=54 best=167 frames=559097 upd=547 sp=212f/s
+10:53:50 update=550 frames=561750 best=167 pi=0.0075 v=2.5424 ent=0.1105 sp=212 f/s
+10:53:58 ep=1250 score=59 best=167 frames=563553 upd=551 sp=212f/s
+10:54:19 ep=1260 score=73 best=167 frames=568285 upd=556 sp=212f/s
+10:54:37 update=560 frames=571964 best=167 pi=-0.0007 v=1.3726 ent=0.1226 sp=212 f/s
+10:54:39 ep=1270 score=75 best=167 frames=572504 upd=560 sp=212f/s
+10:54:59 ep=1280 score=113 best=167 frames=576711 upd=564 sp=212f/s
+10:55:21 ep=1290 score=65 best=167 frames=581518 upd=569 sp=212f/s
+10:55:24 update=570 frames=582176 best=167 pi=-0.0002 v=0.6385 ent=0.0763 sp=212 f/s
+10:55:41 ep=1300 score=54 best=167 frames=586009 upd=573 sp=212f/s
+10:56:01 ep=1310 score=54 best=167 frames=590388 upd=578 sp=212f/s
+10:56:11 update=580 frames=592389 best=167 pi=-0.0024 v=3.4427 ent=0.1550 sp=212 f/s
+10:56:24 ep=1320 score=108 best=167 frames=595465 upd=583 sp=212f/s
+10:56:46 ep=1330 score=51 best=167 frames=600321 upd=587 sp=212f/s
+10:56:57 update=590 frames=602605 best=167 pi=-0.0037 v=3.3506 ent=0.1856 sp=212 f/s
+10:57:05 ep=1340 score=65 best=167 frames=604343 upd=591 sp=212f/s
+10:57:29 ep=1350 score=70 best=167 frames=609697 upd=596 sp=213f/s
+10:57:44 update=600 frames=612815 best=167 pi=-0.0018 v=2.6060 ent=0.0791 sp=213 f/s
+10:57:50 ep=1360 score=54 best=167 frames=614369 upd=601 sp=213f/s
+10:58:14 ep=1370 score=68 best=167 frames=619583 upd=606 sp=213f/s
+10:58:30 update=610 frames=623034 best=167 pi=0.0004 v=0.3825 ent=0.0129 sp=213 f/s
+10:58:34 ep=1380 score=91 best=167 frames=623875 upd=610 sp=213f/s
+10:58:57 ep=1390 score=54 best=167 frames=628846 upd=615 sp=213f/s
+10:59:16 ep=1400 score=65 best=167 frames=633095 upd=619 sp=213f/s
+10:59:17 update=620 frames=633243 best=167 pi=-0.0000 v=3.3997 ent=0.1299 sp=213 f/s
+10:59:39 ep=1410 score=43 best=167 frames=638117 upd=624 sp=213f/s
+11:00:00 ep=1420 score=55 best=167 frames=642662 upd=629 sp=213f/s
+11:00:03 update=630 frames=643470 best=167 pi=0.0039 v=4.9452 ent=0.1540 sp=213 f/s
+11:00:20 ep=1430 score=75 best=167 frames=647208 upd=633 sp=213f/s
+11:00:46 ep=1440 score=70 best=167 frames=652866 upd=639 sp=213f/s
+11:00:50 update=640 frames=653688 best=167 pi=0.0092 v=0.7789 ent=0.0528 sp=213 f/s
+11:01:05 ep=1450 score=51 best=167 frames=657080 upd=643 sp=213f/s
+11:01:27 ep=1460 score=54 best=167 frames=661986 upd=648 sp=213f/s
+11:01:36 update=650 frames=663907 best=167 pi=0.0079 v=3.9094 ent=0.1619 sp=213 f/s
+11:01:52 ep=1470 score=54 best=167 frames=667561 upd=653 sp=213f/s
+11:02:14 ep=1480 score=59 best=167 frames=672442 upd=658 sp=213f/s
+11:02:22 update=660 frames=674118 best=167 pi=-0.0019 v=1.0630 ent=0.1335 sp=213 f/s
+11:02:34 ep=1490 score=111 best=167 frames=676856 upd=662 sp=213f/s
+11:02:57 ep=1500 score=121 best=167 frames=681898 upd=667 sp=213f/s
+11:03:08 update=670 frames=684340 best=167 pi=-0.0067 v=1.5210 ent=0.0756 sp=213 f/s
+11:03:20 ep=1510 score=60 best=167 frames=687147 upd=672 sp=213f/s
+11:03:40 ep=1520 score=86 best=167 frames=691391 upd=676 sp=213f/s
+11:03:53 update=680 frames=694558 best=167 pi=0.0186 v=6.5032 ent=0.1794 sp=213 f/s
+11:04:05 ep=1530 score=59 best=167 frames=697355 upd=682 sp=214f/s
+11:04:24 ep=1540 score=60 best=167 frames=701376 upd=686 sp=214f/s
+11:04:40 update=690 frames=704775 best=167 pi=-0.0002 v=2.4815 ent=0.0709 sp=214 f/s
+11:04:45 ep=1550 score=44 best=167 frames=706004 upd=691 sp=214f/s
+11:05:07 ep=1560 score=44 best=167 frames=711031 upd=696 sp=214f/s
+11:05:25 update=700 frames=714985 best=167 pi=0.0038 v=0.7655 ent=0.1269 sp=214 f/s
+11:05:30 ep=1570 score=61 best=167 frames=716268 upd=701 sp=214f/s
+11:05:55 ep=1580 score=44 best=167 frames=721703 upd=706 sp=214f/s
+11:06:10 update=710 frames=725209 best=167 pi=-0.0036 v=3.6597 ent=0.3127 sp=214 f/s
+11:06:19 ep=1590 score=60 best=167 frames=727186 upd=711 sp=214f/s
+11:06:38 ep=1600 score=44 best=167 frames=731415 upd=716 sp=214f/s
+11:06:56 update=720 frames=735427 best=167 pi=0.0096 v=4.0374 ent=0.3757 sp=214 f/s
+11:07:01 ep=1610 score=60 best=167 frames=736734 upd=721 sp=214f/s
+11:07:05 ep=1612 score=193 best=193 frames=737542 upd=722 sp=214f/s
+11:07:21 ep=1620 score=53 best=193 frames=741035 upd=725 sp=214f/s
+11:07:41 update=730 frames=745651 best=193 pi=-0.0006 v=5.5964 ent=0.3860 sp=214 f/s
+11:07:47 ep=1630 score=134 best=193 frames=746933 upd=731 sp=214f/s
+11:08:09 ep=1640 score=121 best=193 frames=751763 upd=735 sp=214f/s
+11:08:28 update=740 frames=755867 best=193 pi=0.0005 v=4.0120 ent=0.1177 sp=214 f/s
+11:08:34 ep=1650 score=75 best=193 frames=757183 upd=741 sp=214f/s
+11:08:57 ep=1660 score=43 best=193 frames=762567 upd=746 sp=214f/s
+11:09:13 update=750 frames=766089 best=193 pi=0.0003 v=0.3949 ent=0.1989 sp=214 f/s
+11:09:22 ep=1670 score=44 best=193 frames=768130 upd=751 sp=214f/s
+11:09:44 ep=1680 score=91 best=193 frames=773112 upd=756 sp=215f/s
+11:09:57 ep=1687 score=196 best=196 frames=776142 upd=759 sp=215f/s
+11:09:58 update=760 frames=776302 best=196 pi=-0.0011 v=7.9604 ent=0.4159 sp=215 f/s
+11:10:03 ep=1690 score=45 best=196 frames=777462 upd=761 sp=215f/s
+11:10:25 ep=1700 score=108 best=196 frames=782355 upd=765 sp=215f/s
+11:10:43 update=770 frames=786515 best=196 pi=-0.0004 v=4.0881 ent=0.0786 sp=215 f/s
+11:10:54 ep=1710 score=69 best=196 frames=789141 upd=772 sp=215f/s
+11:11:14 ep=1720 score=83 best=196 frames=793417 upd=776 sp=215f/s
+11:11:28 update=780 frames=796742 best=196 pi=0.0031 v=4.5032 ent=0.3191 sp=215 f/s
+11:11:44 ep=1730 score=45 best=196 frames=800578 upd=783 sp=215f/s
+11:12:06 ep=1740 score=44 best=196 frames=805663 upd=788 sp=215f/s
+11:12:12 update=790 frames=806962 best=196 pi=-0.0020 v=2.9771 ent=0.3524 sp=215 f/s
+11:12:24 ep=1750 score=44 best=196 frames=809731 upd=792 sp=215f/s
+11:12:42 ep=1760 score=44 best=196 frames=813658 upd=796 sp=215f/s
+11:12:58 update=800 frames=817167 best=196 pi=0.0042 v=1.7444 ent=0.1355 sp=215 f/s
+11:13:03 ep=1770 score=66 best=196 frames=818205 upd=801 sp=215f/s
+11:13:23 ep=1780 score=100 best=196 frames=822747 upd=805 sp=215f/s
+11:13:44 ep=1790 score=52 best=196 frames=827371 upd=809 sp=215f/s
+11:13:44 update=810 frames=827379 best=196 pi=-0.0039 v=4.0323 ent=0.2372 sp=215 f/s
+11:14:04 ep=1799 score=239 best=239 frames=831931 upd=814 sp=215f/s
+11:14:08 ep=1800 score=43 best=239 frames=833047 upd=815 sp=215f/s
+11:14:29 update=820 frames=837590 best=239 pi=0.0076 v=4.6797 ent=0.3245 sp=215 f/s
+11:14:29 ep=1810 score=70 best=239 frames=837670 upd=820 sp=215f/s
+11:14:51 ep=1820 score=54 best=239 frames=842439 upd=824 sp=215f/s
+11:15:00 ep=1823 score=243 best=243 frames=844592 upd=826 sp=215f/s
+11:15:14 update=830 frames=847815 best=243 pi=0.0000 v=1.9645 ent=0.3528 sp=216 f/s
+11:15:17 ep=1830 score=77 best=243 frames=848574 upd=830 sp=216f/s
+11:15:36 ep=1840 score=78 best=243 frames=852843 upd=834 sp=216f/s
+11:15:56 ep=1850 score=44 best=243 frames=857305 upd=839 sp=216f/s
+11:16:00 update=840 frames=858021 best=243 pi=0.0003 v=3.3749 ent=0.2495 sp=216 f/s
+11:16:18 ep=1860 score=45 best=243 frames=861962 upd=843 sp=216f/s
+11:16:45 update=850 frames=868241 best=243 pi=0.0007 v=1.9788 ent=0.2054 sp=216 f/s
+11:16:49 ep=1870 score=117 best=243 frames=869331 upd=851 sp=216f/s
+11:17:07 ep=1875 score=257 best=257 frames=873551 upd=855 sp=216f/s
+11:17:23 ep=1880 score=83 best=257 frames=877326 upd=858 sp=216f/s
+11:17:28 update=860 frames=878462 best=257 pi=0.0009 v=1.1692 ent=0.2089 sp=216 f/s
+11:17:32 ep=1883 score=287 best=287 frames=879441 upd=860 sp=216f/s
+11:18:08 update=870 frames=888695 best=287 pi=0.0004 v=0.6161 ent=0.2383 sp=216 f/s
+11:18:24 ep=1890 score=428 best=428 frames=892891 upd=874 sp=217f/s
+11:18:27 ep=1891 score=490 best=490 frames=893567 upd=874 sp=217f/s
+11:18:48 update=880 frames=898928 best=490 pi=0.0012 v=0.3249 ent=0.2566 sp=217 f/s
+11:19:25 update=890 frames=909161 best=490 pi=-0.0038 v=0.1386 ent=0.2643 sp=217 f/s
+11:19:40 ep=1899 score=732 best=732 frames=913204 upd=893 sp=217f/s
+11:19:41 ep=1900 score=713 best=732 frames=913360 upd=894 sp=217f/s
+11:20:03 update=900 frames=919399 best=732 pi=-0.0030 v=0.2696 ent=0.2129 sp=218 f/s
+11:20:32 ep=1910 score=103 best=732 frames=926820 upd=907 sp=218f/s
+11:20:42 update=910 frames=929632 best=732 pi=-0.0029 v=0.2809 ent=0.1938 sp=218 f/s
+11:21:20 update=920 frames=939866 best=732 pi=-0.0022 v=0.1883 ent=0.1629 sp=219 f/s
+11:21:46 ep=1915 score=847 best=847 frames=947174 upd=927 sp=219f/s
+11:21:58 update=930 frames=950106 best=847 pi=-0.0060 v=3.6900 ent=0.1549 sp=219 f/s
+11:22:17 ep=1917 score=894 best=894 frames=955490 upd=935 sp=219f/s
+11:22:20 ep=1919 score=1196 best=1196 frames=956345 upd=936 sp=219f/s
+11:22:23 ep=1920 score=282 best=1196 frames=957029 upd=936 sp=219f/s
+11:22:36 update=940 frames=960345 best=1196 pi=0.0002 v=1.4392 ent=0.1318 sp=219 f/s
+11:23:15 update=950 frames=970583 best=1196 pi=-0.0017 v=0.1301 ent=0.1258 sp=220 f/s
+11:23:37 ep=1930 score=393 best=1196 frames=976502 upd=955 sp=220f/s
+11:23:53 update=960 frames=980822 best=1196 pi=0.0012 v=0.6127 ent=0.2039 sp=220 f/s
+11:24:30 update=970 frames=991062 best=1196 pi=-0.0018 v=0.1829 ent=0.2487 sp=221 f/s
+11:25:07 update=980 frames=1001300 best=1196 pi=-0.0032 v=0.0754 ent=0.1501 sp=221 f/s
+11:25:42 update=990 frames=1011540 best=1196 pi=-0.0021 v=0.0827 ent=0.1305 sp=222 f/s
+11:26:17 update=1000 frames=1021780 best=1196 pi=-0.0020 v=0.0332 ent=0.1194 sp=222 f/s
+11:26:29 ep=1938 score=1270 best=1270 frames=1025232 upd=1003 sp=222f/s
+11:26:53 update=1010 frames=1032020 best=1270 pi=-0.0037 v=0.0426 ent=0.1056 sp=223 f/s
+11:27:03 ep=1940 score=2078 best=2078 frames=1034742 upd=1012 sp=223f/s
+11:27:03 TARGET REACHED best=2078
+11:27:07 cleaned up

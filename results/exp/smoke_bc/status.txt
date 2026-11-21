@@ -1,0 +1,15 @@
+01:44:43 bc start teacher=rule episodes=4 n_envs=2 max_frames_ep=3000
+01:45:56 collect 4/4 last=445 samples=3000
+01:45:56 collected 3000 samples action_dist=[2837, 163] in 64s
+01:46:00 epoch 1/2 loss=0.4034 acc=0.9457
+01:46:01 epoch 2/2 loss=0.2167 acc=0.9457
+01:46:01 bc training finished
+01:46:04 cleaned up
+01:46:36 bc start teacher=rule episodes=4 n_envs=2 max_frames_ep=3000
+01:47:47 collect 4/4 last=445 samples=3000
+01:47:48 collected 3000 samples action_dist=[2833, 167] class_w=[0.5294740796089172, 8.982035636901855] in 63s
+01:47:51 epoch 1/3 loss=0.6463 acc=0.9117
+01:47:51 epoch 2/3 loss=0.3225 acc=0.8183
+01:47:51 epoch 3/3 loss=0.1369 acc=0.9340
+01:47:51 bc training finished
+01:47:53 cleaned up

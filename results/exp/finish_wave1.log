@@ -1,0 +1,29 @@
+[2026-11-21 09:59:38] waiting for dqn_vision / c51_vision trainings...
+[2026-11-21 12:58:48] both trainings done
+[2026-11-21 12:58:51] eval dqn (algo=dqn obs=vision)
+12:58:52 loaded results/exp/dqn_vision/best.pt algo=dqn obs=vision atoms=0 frame_stack=4 obs_res=80 feat_mask=None train_best=1735.0
+12:58:52 eval policy=model name=dqn obs=vision episodes=50 n_envs=4
+12:59:08 done 10/50 last=44
+12:59:13 done 20/50 last=54
+12:59:18 done 30/50 last=96
+12:59:24 done 40/50 last=84
+12:59:30 done 50/50 last=63
+12:59:30 EVAL DONE {'policy': 'model', 'name': 'dqn', 'n': 50, 'mean': np.float64(66.38), 'median': 61.0, 'std': np.float64(23.98), 'min': np.float64(44.0), 'max': np.float64(180.0), 'p25': 53.25, 'p75': 71.75, 'seconds': 29.4}
+12:59:30 cleaned up
+[2026-11-21 12:59:30] eval dqn rc=0
+[2026-11-21 12:59:33] eval c51 (algo=c51 obs=vision)
+12:59:35 loaded results/exp/c51_vision/best.pt algo=c51 obs=vision atoms=51 frame_stack=4 obs_res=80 feat_mask=None train_best=2132.0
+12:59:35 eval policy=model name=c51 obs=vision episodes=50 n_envs=4
+12:59:47 done 10/50 last=45
+12:59:51 done 20/50 last=52
+12:59:55 done 30/50 last=45
+12:59:59 done 40/50 last=45
+13:00:03 done 50/50 last=45
+13:00:03 EVAL DONE {'policy': 'model', 'name': 'c51', 'n': 50, 'mean': np.float64(46.4), 'median': 45.0, 'std': np.float64(4.13), 'min': np.float64(44.0), 'max': np.float64(66.0), 'p25': 45.0, 'p75': 45.0, 'seconds': 19.7}
+13:00:03 cleaned up
+[2026-11-21 13:00:04] eval c51 rc=0
+[2026-11-21 13:00:04] building compare artifacts
+wrote results/exp/compare_table.csv
+wrote results/exp/compare_curves.png
+[2026-11-21 13:00:05] make_compare OK
+[2026-11-21 13:00:05] wave-1 tail finished

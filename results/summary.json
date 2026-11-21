@@ -1,89 +1,59 @@
 {
   "aggregate": {
-    "episodes": 5,
-    "mean": 52.6,
-    "min": 42.0,
-    "max": 61.0,
+    "episodes": 3,
+    "mean": 130.33333333333334,
+    "min": 108.0,
+    "max": 173.0,
     "scores": [
-      61.0,
-      42.0,
-      59.0,
-      50.0,
-      51.0
+      173.0,
+      110.0,
+      108.0
     ],
-    "mean_act_ms": 1038.9199999999998,
-    "unparsed": 6
+    "mean_act_ms": 1044.8333333333333,
+    "unparsed": 4
   },
   "episodes": [
     {
       "seed": 20271015,
-      "score": 61.0,
-      "game_frames": 442,
-      "decisions": 37,
-      "total_reward": 42.89,
+      "score": 173.0,
+      "game_frames": 1187,
+      "decisions": 99,
+      "total_reward": 117.01,
       "terminal": "collision",
-      "wall_s": 255.3,
-      "mean_act_ms": 1045.0,
-      "max_act_ms": 1233.7,
+      "wall_s": 779.0,
+      "mean_act_ms": 1059.6,
+      "max_act_ms": 1184.5,
       "unparsed": 1,
-      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
-      "gif": "/root/DinoRL/results/lora_eval_ep1_score61.gif"
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_slow_ep1_score173.gif"
     },
     {
       "seed": 20271016,
-      "score": 42.0,
-      "game_frames": 314,
-      "decisions": 27,
-      "total_reward": 30.15,
+      "score": 110.0,
+      "game_frames": 770,
+      "decisions": 65,
+      "total_reward": 75.53,
       "terminal": "collision",
-      "wall_s": 183.0,
-      "mean_act_ms": 1036.4,
-      "max_act_ms": 1178.8,
+      "wall_s": 506.9,
+      "mean_act_ms": 1042.0,
+      "max_act_ms": 1269.6,
       "unparsed": 1,
-      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
-      "gif": "/root/DinoRL/results/lora_eval_ep2_score42.gif"
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_slow_ep2_score110.gif"
     },
     {
       "seed": 20271017,
-      "score": 59.0,
-      "game_frames": 428,
-      "decisions": 36,
-      "total_reward": 41.5,
+      "score": 108.0,
+      "game_frames": 752,
+      "decisions": 63,
+      "total_reward": 73.73,
       "terminal": "collision",
-      "wall_s": 246.6,
-      "mean_act_ms": 1035.3,
-      "max_act_ms": 1185.2,
-      "unparsed": 1,
-      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
-      "gif": "/root/DinoRL/results/lora_eval_ep3_score59.gif"
-    },
-    {
-      "seed": 20271018,
-      "score": 50.0,
-      "game_frames": 370,
-      "decisions": 31,
-      "total_reward": 35.73,
-      "terminal": "collision",
-      "wall_s": 217.1,
-      "mean_act_ms": 1063.0,
-      "max_act_ms": 1232.1,
-      "unparsed": 1,
-      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
-      "gif": "/root/DinoRL/results/lora_eval_ep4_score50.gif"
-    },
-    {
-      "seed": 20271019,
-      "score": 51.0,
-      "game_frames": 373,
-      "decisions": 32,
-      "total_reward": 36.01,
-      "terminal": "collision",
-      "wall_s": 219.1,
-      "mean_act_ms": 1014.9,
-      "max_act_ms": 1183.1,
+      "wall_s": 488.8,
+      "mean_act_ms": 1032.9,
+      "max_act_ms": 1225.2,
       "unparsed": 2,
-      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
-      "gif": "/root/DinoRL/results/lora_eval_ep5_score51.gif"
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_slow_ep3_score108.gif"
     }
   ]
 }

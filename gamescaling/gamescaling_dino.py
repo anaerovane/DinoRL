@@ -197,7 +197,7 @@ JUMP_KEYS = {"Up", "Space"}
 
 # ------------------------------------------------------------------- the loop
 def run_episode(policy, game, seed, max_decisions, max_seconds,
-                record_every=6, record_limit=400):
+                record_every=6, record_limit=400, slowdown=0.0):
     policy.reset()
     game.reset(seed)
     capture = [game.capture()]
@@ -226,6 +226,8 @@ def run_episode(policy, game, seed, max_decisions, max_seconds,
             total_reward += reward
             game_frames += adv
             done = d
+            if slowdown > 0:
+                time.sleep(slowdown)
             if done:
                 break
         decisions += 1
@@ -277,6 +279,9 @@ def main():
     ap.add_argument("--adapter", default=None,
                     help="optional LoRA adapter dir (PEFT) to mount on the model")
     ap.add_argument("--tag", default="gamescaling", help="prefix for output files")
+    ap.add_argument("--slowdown", type=float, default=0.0,
+                    help="seconds to sleep after each game step (0 = real-time). "
+                         "E.g. 0.15 gives the VLM ~1s per 12-frame decision chunk.")
     ap.add_argument("--smoke", action="store_true", help="3 decisions, no GIF")
     ap.add_argument("--seed-offset", type=int, default=10000,
                     help="episode i uses DinoRL's eval seed SEED+offset+i")
@@ -321,7 +326,8 @@ def main():
         game = LocalGitHubGame(SEED, action_repeat=2)
         try:
             result, images, img_frames = run_episode(
-                policy, game, seed, args.max_decisions, args.max_seconds)
+                policy, game, seed, args.max_decisions, args.max_seconds,
+                slowdown=args.slowdown)
         finally:
             game.close()
         gif = RESULTS / f"{args.tag}_ep{ep+1}_score{int(result['score'])}.gif"

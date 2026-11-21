@@ -1,0 +1,26 @@
+loading processor / model ...
+Loading weights:   0%|          | 0/474 [00:00<?, ?it/s]Loading weights: 100%|██████████| 474/474 [00:00<00:00, 7699.19it/s]
+/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_utils.py:3195: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+trainable params: 1,081,344 || all params: 854,067,264 || trainable%: 0.1266
+data: 10406 rows across 8 seeds, 0 jump rows
+windows: 1822
+steps/epoch=456 total_steps=456
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+step 20/456 epoch 1 loss=2.5451 window/s=2.16 eta=13min
+step 40/456 epoch 1 loss=0.0224 window/s=2.23 eta=12min
+step 60/456 epoch 1 loss=0.0008 window/s=2.25 eta=12min
+step 80/456 epoch 1 loss=0.0003 window/s=2.26 eta=11min
+step 100/456 epoch 1 loss=0.0002 window/s=2.25 eta=11min
+step 120/456 epoch 1 loss=0.0001 window/s=2.26 eta=10min
+step 140/456 epoch 1 loss=0.0001 window/s=2.26 eta=9min
+step 160/456 epoch 1 loss=0.0001 window/s=2.27 eta=9min
+step 180/456 epoch 1 loss=0.0001 window/s=2.27 eta=8min
+step 200/456 epoch 1 loss=0.0001 window/s=2.26 eta=8min
+step 220/456 epoch 1 loss=0.0001 window/s=2.27 eta=7min
+step 240/456 epoch 1 loss=0.0001 window/s=2.27 eta=6min
+step 260/456 epoch 1 loss=0.0001 window/s=2.27 eta=6min
+step 280/456 epoch 1 loss=0.0001 window/s=2.27 eta=5min
+step 300/456 epoch 1 loss=0.0000 window/s=2.28 eta=5min
+step 320/456 epoch 1 loss=0.0000 window/s=2.28 eta=4min

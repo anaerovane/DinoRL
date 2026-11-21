@@ -5,3 +5,6 @@ gamescaling/model/
 *.lock
 *.incomplete
 *.metadata
+results/expert_data.jsonl
+gamescaling/model_download.log
+results/exp/*/checkpoints/

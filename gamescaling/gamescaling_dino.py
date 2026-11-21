@@ -82,6 +82,7 @@ def load_game_env():
     ns: dict = {}
     exec(compile(setup, "dinorl_setup_cell", "exec"), ns)
     exec(compile(env, "dinorl_env_cell", "exec"), ns)
+    ns["FIREFOX_BINARY"] = os.environ.get("FIREFOX_BIN", "/root/tools/firefox/firefox")
     # The notebook pins torch to one thread for its tiny CNN; undo that for the VLM.
     torch.set_num_threads(os.cpu_count() or 4)
     return ns
@@ -268,8 +269,8 @@ def main():
     ap.add_argument("--max-decisions", type=int, default=200)
     ap.add_argument("--max-seconds", type=float, default=1800.0)
     ap.add_argument("--device",
-                    default="mps" if torch.backends.mps.is_available() else "cpu",
-                    choices=["cpu", "mps"])
+                    default="cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu",
+                    choices=["cpu", "mps", "cuda"])
     ap.add_argument("--history", type=int, default=5)
     ap.add_argument("--reasoning", action="store_true",
                     help="let the model think (default: empty think, act directly)")

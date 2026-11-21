@@ -1,0 +1,89 @@
+{
+  "aggregate": {
+    "episodes": 5,
+    "mean": 52.6,
+    "min": 42.0,
+    "max": 61.0,
+    "scores": [
+      61.0,
+      42.0,
+      59.0,
+      50.0,
+      51.0
+    ],
+    "mean_act_ms": 1038.9199999999998,
+    "unparsed": 6
+  },
+  "episodes": [
+    {
+      "seed": 20271015,
+      "score": 61.0,
+      "game_frames": 442,
+      "decisions": 37,
+      "total_reward": 42.89,
+      "terminal": "collision",
+      "wall_s": 255.3,
+      "mean_act_ms": 1045.0,
+      "max_act_ms": 1233.7,
+      "unparsed": 1,
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_eval_ep1_score61.gif"
+    },
+    {
+      "seed": 20271016,
+      "score": 42.0,
+      "game_frames": 314,
+      "decisions": 27,
+      "total_reward": 30.15,
+      "terminal": "collision",
+      "wall_s": 183.0,
+      "mean_act_ms": 1036.4,
+      "max_act_ms": 1178.8,
+      "unparsed": 1,
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_eval_ep2_score42.gif"
+    },
+    {
+      "seed": 20271017,
+      "score": 59.0,
+      "game_frames": 428,
+      "decisions": 36,
+      "total_reward": 41.5,
+      "terminal": "collision",
+      "wall_s": 246.6,
+      "mean_act_ms": 1035.3,
+      "max_act_ms": 1185.2,
+      "unparsed": 1,
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ; Up ; Up<|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_eval_ep3_score59.gif"
+    },
+    {
+      "seed": 20271018,
+      "score": 50.0,
+      "game_frames": 370,
+      "decisions": 31,
+      "total_reward": 35.73,
+      "terminal": "collision",
+      "wall_s": 217.1,
+      "mean_act_ms": 1063.0,
+      "max_act_ms": 1232.1,
+      "unparsed": 1,
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_eval_ep4_score50.gif"
+    },
+    {
+      "seed": 20271019,
+      "score": 51.0,
+      "game_frames": 373,
+      "decisions": 32,
+      "total_reward": 36.01,
+      "terminal": "collision",
+      "wall_s": 219.1,
+      "mean_act_ms": 1014.9,
+      "max_act_ms": 1183.1,
+      "unparsed": 2,
+      "last_action_text": "<think>\n\n</think><|im_start|>assistant\n<think>\n\n</think><|action_start|>0 0 0 ;  ;  ;  ;  ;  ; <|action_end|><|im_end|>",
+      "gif": "/root/DinoRL/results/lora_eval_ep5_score51.gif"
+    }
+  ]
+}

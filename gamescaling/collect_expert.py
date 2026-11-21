@@ -50,6 +50,7 @@ def load_dinorl_env():
     exec(compile(setup, "setup_cell", "exec"), ns)
     exec(compile(classes, "classes_cell", "exec"), ns)
     exec(compile(env, "env_cell", "exec"), ns)
+    ns["FIREFOX_BINARY"] = os.environ.get("FIREFOX_BIN", "/root/tools/firefox/firefox")
     return ns
 
 
@@ -108,7 +109,7 @@ def main():
                 frames.append(obs)
                 game_frames += adv
                 if pending is not None:
-                    g = game_frames // 2  # finished groups after this decision
+                    g = ((game_frames % 12) or 12) // 2  # groups finished within current 12-frame window
                     for gi in [g - 2, g - 1]:
                         if 0 <= gi < 6:
                             pending["groups"][gi] = "Up" if a == 1 else ""

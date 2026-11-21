@@ -1,0 +1,24 @@
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+loading GameScaling-0.8B-S3 (device=cuda, history=5, reasoning=False, adapter=/root/DinoRL/results/sft_lora) ...
+Loading weights:   0%|          | 0/474 [00:00<?, ?it/s]Loading weights: 100%|██████████| 474/474 [00:00<00:00, 8133.58it/s]
+=== episode 1/5 seed=20271015 ===
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{"seed": 20271015, "score": 61.0, "game_frames": 442, "decisions": 37, "total_reward": 42.89, "terminal": "collision", "wall_s": 255.3, "mean_act_ms": 1045.0, "max_act_ms": 1233.7, "unparsed": 1, "gif": "/root/DinoRL/results/lora_eval_ep1_score61.gif"}
+    -> /root/DinoRL/results/lora_eval_ep1_score61.gif
+=== episode 2/5 seed=20271016 ===
+{"seed": 20271016, "score": 42.0, "game_frames": 314, "decisions": 27, "total_reward": 30.15, "terminal": "collision", "wall_s": 183.0, "mean_act_ms": 1036.4, "max_act_ms": 1178.8, "unparsed": 1, "gif": "/root/DinoRL/results/lora_eval_ep2_score42.gif"}
+    -> /root/DinoRL/results/lora_eval_ep2_score42.gif
+=== episode 3/5 seed=20271017 ===
+{"seed": 20271017, "score": 59.0, "game_frames": 428, "decisions": 36, "total_reward": 41.5, "terminal": "collision", "wall_s": 246.6, "mean_act_ms": 1035.3, "max_act_ms": 1185.2, "unparsed": 1, "gif": "/root/DinoRL/results/lora_eval_ep3_score59.gif"}
+    -> /root/DinoRL/results/lora_eval_ep3_score59.gif
+=== episode 4/5 seed=20271018 ===
+{"seed": 20271018, "score": 50.0, "game_frames": 370, "decisions": 31, "total_reward": 35.73, "terminal": "collision", "wall_s": 217.1, "mean_act_ms": 1063.0, "max_act_ms": 1232.1, "unparsed": 1, "gif": "/root/DinoRL/results/lora_eval_ep4_score50.gif"}
+    -> /root/DinoRL/results/lora_eval_ep4_score50.gif
+=== episode 5/5 seed=20271019 ===
+{"seed": 20271019, "score": 51.0, "game_frames": 373, "decisions": 32, "total_reward": 36.01, "terminal": "collision", "wall_s": 219.1, "mean_act_ms": 1014.9, "max_act_ms": 1183.1, "unparsed": 2, "gif": "/root/DinoRL/results/lora_eval_ep5_score51.gif"}
+    -> /root/DinoRL/results/lora_eval_ep5_score51.gif
+AGGREGATE: {"episodes": 5, "mean": 52.6, "min": 42.0, "max": 61.0, "scores": [61.0, 42.0, 59.0, 50.0, 51.0], "mean_act_ms": 1038.9199999999998, "unparsed": 6}

@@ -1,0 +1,9 @@
+21:44:21 loaded results/exp/ppo_sparse/best.pt algo=ppo obs=vision atoms=0 frame_stack=4 obs_res=80 feat_mask=None train_best=2414.0
+21:44:21 eval policy=model name=ppo_sparse obs=vision episodes=50 n_envs=4
+21:54:32 done 10/50 last=2995
+21:59:42 done 20/50 last=2995
+22:05:29 done 30/50 last=2995
+22:09:13 done 40/50 last=2995
+22:12:30 done 50/50 last=2995
+22:12:30 EVAL DONE {'policy': 'model', 'name': 'ppo_sparse', 'n': 50, 'mean': np.float64(2995.0), 'median': 2995.0, 'std': np.float64(0.0), 'min': np.float64(2995.0), 'max': np.float64(2995.0), 'p25': 2995.0, 'p75': 2995.0, 'seconds': 1667.0}
+22:12:31 cleaned up

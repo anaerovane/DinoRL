@@ -1,0 +1,55 @@
+=== [Sat Nov 21 23:44:52 CST 2026] STEP 1: collect_expert (fixed group recording) ===
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+expert checkpoint loaded: 5830 episodes
+episode 0 seed=20291015: frames=14174 score=2121 samples=1181 done=True
+episode 1 seed=20291016: frames=14286 score=2138 samples=1190 done=True
+episode 2 seed=20291017: frames=20000 score=2995 samples=1666 done=False
+episode 3 seed=20291018: frames=9658 score=1443 samples=804 done=True
+episode 4 seed=20291019: frames=9448 score=1412 samples=787 done=True
+total samples: 5628 -> /root/DinoRL/results/expert_data.jsonl (279s)
+=== [Sat Nov 21 23:49:33 CST 2026] STEP 2: verify jump labels ===
+total=5628 rows_with_jump=1439 (25.6%)
+Jump labels OK
+=== [Sat Nov 21 23:49:33 CST 2026] STEP 3: LoRA SFT training ===
+loading processor / model ...
+Loading weights:   0%|          | 0/474 [00:00<?, ?it/s]Loading weights: 100%|██████████| 474/474 [00:00<00:00, 8059.40it/s]
+/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_utils.py:3195: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+trainable params: 1,081,344 || all params: 854,067,264 || trainable%: 0.1266
+data: 5628 rows across 5 seeds, 1439 jump rows
+windows: 2243
+steps/epoch=561 total_steps=561
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+step 20/561 epoch 1 loss=3.2822 window/s=2.25 eta=16min
+step 40/561 epoch 1 loss=0.3528 window/s=2.30 eta=15min
+step 60/561 epoch 1 loss=0.2553 window/s=2.32 eta=14min
+step 80/561 epoch 1 loss=0.3235 window/s=2.33 eta=14min
+step 100/561 epoch 1 loss=0.2635 window/s=2.32 eta=13min
+step 120/561 epoch 1 loss=0.2279 window/s=2.31 eta=13min
+step 140/561 epoch 1 loss=0.2321 window/s=2.32 eta=12min
+step 160/561 epoch 1 loss=0.2383 window/s=2.33 eta=11min
+step 180/561 epoch 1 loss=0.2054 window/s=2.33 eta=11min
+step 200/561 epoch 1 loss=0.1867 window/s=2.34 eta=10min
+step 220/561 epoch 1 loss=0.1808 window/s=2.34 eta=10min
+step 240/561 epoch 1 loss=0.2027 window/s=2.33 eta=9min
+step 260/561 epoch 1 loss=0.1813 window/s=2.33 eta=9min
+step 280/561 epoch 1 loss=0.1599 window/s=2.34 eta=8min
+step 300/561 epoch 1 loss=0.1367 window/s=2.34 eta=7min
+step 320/561 epoch 1 loss=0.1389 window/s=2.34 eta=7min
+step 340/561 epoch 1 loss=0.1540 window/s=2.34 eta=6min
+step 360/561 epoch 1 loss=0.1144 window/s=2.34 eta=6min
+step 380/561 epoch 1 loss=0.1220 window/s=2.34 eta=5min
+step 400/561 epoch 1 loss=0.1229 window/s=2.34 eta=5min
+step 420/561 epoch 1 loss=0.1011 window/s=2.34 eta=4min
+step 440/561 epoch 1 loss=0.1259 window/s=2.35 eta=3min
+step 460/561 epoch 1 loss=0.1124 window/s=2.35 eta=3min
+step 480/561 epoch 1 loss=0.0803 window/s=2.35 eta=2min
+step 500/561 epoch 1 loss=0.1117 window/s=2.35 eta=2min
+step 520/561 epoch 1 loss=0.0871 window/s=2.35 eta=1min
+step 540/561 epoch 1 loss=0.0984 window/s=2.35 eta=1min
+step 560/561 epoch 1 loss=0.0876 window/s=2.35 eta=0min
+mean micro loss over run: 0.2812
+adapter saved -> /root/DinoRL/results/sft_lora
+=== [Sun Nov 22 00:05:36 CST 2026] PIPELINE COMPLETE ===

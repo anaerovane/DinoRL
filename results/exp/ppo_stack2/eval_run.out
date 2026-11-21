@@ -1,0 +1,9 @@
+21:44:21 loaded results/exp/ppo_stack2/best.pt algo=ppo obs=vision atoms=0 frame_stack=2 obs_res=80 feat_mask=None train_best=2129.0
+21:44:21 eval policy=model name=ppo_stack2 obs=vision episodes=50 n_envs=4
+21:49:09 done 10/50 last=2112
+21:51:42 done 20/50 last=2116
+21:53:35 done 30/50 last=746
+21:55:37 done 40/50 last=2114
+21:58:19 done 50/50 last=2104
+21:58:19 EVAL DONE {'policy': 'model', 'name': 'ppo_stack2', 'n': 50, 'mean': np.float64(1144.88), 'median': 893.0, 'std': np.float64(690.67), 'min': np.float64(103.0), 'max': np.float64(2146.0), 'p25': 636.0, 'p75': 2101.25, 'seconds': 822.1}
+21:58:19 cleaned up

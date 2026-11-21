@@ -1,0 +1,12 @@
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+expert checkpoint loaded: 5830 episodes
+episode 0 seed=20301015: frames=20000 score=2995 samples=1666 done=False
+episode 1 seed=20301016: frames=14195 score=2124 samples=1182 done=True
+episode 2 seed=20301017: frames=20000 score=2995 samples=1666 done=False
+episode 3 seed=20301018: frames=20000 score=2995 samples=1666 done=False
+episode 4 seed=20301019: frames=20000 score=2995 samples=1666 done=False
+episode 5 seed=20301020: frames=14080 score=2107 samples=1173 done=True
+episode 6 seed=20301021: frames=1956 score=288 samples=162 done=True
+episode 7 seed=20301022: frames=14711 score=2201 samples=1225 done=True
+total samples: 10406 -> /root/DinoRL/results/expert_data.jsonl (1166s)

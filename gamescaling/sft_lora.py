@@ -154,7 +154,7 @@ def main():
     random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.set_num_threads(8)
-    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     dtype = torch.bfloat16
 
     print("loading processor / model ...", flush=True)

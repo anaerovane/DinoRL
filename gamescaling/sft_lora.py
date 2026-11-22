@@ -87,6 +87,8 @@ def build_windows(by_seed: dict, per_seed: int, w_probs: dict, seed: int):
                 items.append(window)          # extra copies of rare positives
                 items.append(window)
                 items.append(window)
+                items.append(window)
+                items.append(window)
     rng.shuffle(items)
     return items
 
@@ -140,9 +142,9 @@ def make_lora(model):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default=str(DATA))
-    ap.add_argument("--epochs", type=float, default=1.0)
+    ap.add_argument("--epochs", type=float, default=8.0)
     ap.add_argument("--lr", type=float, default=2e-4)
-    ap.add_argument("--per-seed", type=int, default=250)
+    ap.add_argument("--per-seed", type=int, default=400)
     ap.add_argument("--max-len", type=int, default=2400)
     ap.add_argument("--accum", type=int, default=4)
     ap.add_argument("--seed", type=int, default=7)

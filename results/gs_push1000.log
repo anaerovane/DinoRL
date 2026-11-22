@@ -1,0 +1,12 @@
+=== [Sun Nov 22 03:10:54 CST 2026] PUSH1000 START ===
+=== [Sun Nov 22 03:10:54 CST 2026] STEP 1: collect rule expert ===
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+expert: rule heuristic (engine features)
+episode 0 seed=20301015: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 1 seed=20301016: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 2 seed=20301017: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 3 seed=20301018: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 4 seed=20301019: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 5 seed=20301020: frames=20000 score=2995 samples=1666 done=False expert=rule
+episode 6 seed=20301021: frames=20000 score=2995 samples=1666 done=False expert=rule

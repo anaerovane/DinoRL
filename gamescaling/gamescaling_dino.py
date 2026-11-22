@@ -268,8 +268,8 @@ def save_gif(images, capture_frames, path: Path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--episodes", type=int, default=2)
-    ap.add_argument("--max-decisions", type=int, default=200)
-    ap.add_argument("--max-seconds", type=float, default=1800.0)
+    ap.add_argument("--max-decisions", type=int, default=4000)
+    ap.add_argument("--max-seconds", type=float, default=7200.0)
     ap.add_argument("--device",
                     default="cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu",
                     choices=["cpu", "mps", "cuda"])
@@ -281,10 +281,14 @@ def main():
     ap.add_argument("--tag", default="gamescaling", help="prefix for output files")
     ap.add_argument("--slowdown", type=float, default=0.0,
                     help="seconds to sleep after each game step (0 = real-time). "
-                         "E.g. 0.15 gives the VLM ~1s per 12-frame decision chunk.")
+                         "0.15 was best historically (mean 130). 0.2–0.3 slows the "
+                         "world further so the ~1s VLM latency can react in time "
+                         "to clear a 20k-frame run (~score 2995).")
     ap.add_argument("--smoke", action="store_true", help="3 decisions, no GIF")
     ap.add_argument("--seed-offset", type=int, default=10000,
                     help="episode i uses DinoRL's eval seed SEED+offset+i")
+    ap.add_argument("--temperature", type=float, default=0.0,
+                    help="0 = greedy (deterministic eval); >0 samples (noisy scores)")
     args = ap.parse_args()
 
     env = load_game_env()
@@ -292,7 +296,8 @@ def main():
     SEED = env["SEED"]
 
     cfg = PolicyConfig(history_len=args.history, reasoning=args.reasoning,
-                       max_tokens=512)
+                       max_tokens=64, temperature=args.temperature,
+                       lenient_parse=True)
     print(f"loading GameScaling-0.8B-S3 (device={args.device}, "
           f"history={args.history}, reasoning={args.reasoning}"
           + (f", adapter={args.adapter}" if args.adapter else "") + ") ...", flush=True)

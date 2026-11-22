@@ -1,0 +1,78 @@
+=== [Sun Nov 22 03:30:01 CST 2026] HIGH SLOW START ===
+=== [Sun Nov 22 03:30:01 CST 2026] EVAL high_s080 slow=0.80 ===
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+loading GameScaling-0.8B-S3 (device=cuda, history=5, reasoning=False, adapter=/root/DinoRL/results/sft_lora_dqn_ep1.bak) ...
+Loading weights:   0%|                                                                                          | 0/474 [00:00<?, ?it/s]Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████| 474/474 [00:00<00:00, 8002.85it/s]
+=== episode 1/4 seed=20271015 ===
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+    decision 50: score=85 frames=600 last_act=1071ms
+{"seed": 20271015, "score": 150.0, "game_frames": 1035, "decisions": 87, "total_reward": 101.88, "terminal": "collision", "wall_s": 1235.9, "mean_act_ms": 1136.0, "max_act_ms": 6608.7, "unparsed": 1, "gif": "/root/DinoRL/results/high_s080_ep1_score150.gif"}
+    -> /root/DinoRL/results/high_s080_ep1_score150.gif
+=== episode 2/4 seed=20271016 ===
+    decision 50: score=85 frames=600 last_act=991ms
+{"seed": 20271016, "score": 134.0, "game_frames": 931, "decisions": 78, "total_reward": 91.53, "terminal": "collision", "wall_s": 1055.7, "mean_act_ms": 1072.2, "max_act_ms": 1198.4, "unparsed": 1, "gif": "/root/DinoRL/results/high_s080_ep2_score134.gif"}
+    -> /root/DinoRL/results/high_s080_ep2_score134.gif
+=== episode 3/4 seed=20271017 ===
+    decision 50: score=85 frames=600 last_act=1157ms
+{"seed": 20271017, "score": 161.0, "game_frames": 1107, "decisions": 93, "total_reward": 109.05, "terminal": "collision", "wall_s": 1281.0, "mean_act_ms": 1137.1, "max_act_ms": 4882.9, "unparsed": 1, "gif": "/root/DinoRL/results/high_s080_ep3_score161.gif"}
+    -> /root/DinoRL/results/high_s080_ep3_score161.gif
+=== episode 4/4 seed=20271018 ===
+{"seed": 20271018, "score": 75.0, "game_frames": 535, "decisions": 45, "total_reward": 52.13, "terminal": "collision", "wall_s": 649.5, "mean_act_ms": 1129.5, "max_act_ms": 2497.5, "unparsed": 1, "gif": "/root/DinoRL/results/high_s080_ep4_score75.gif"}
+    -> /root/DinoRL/results/high_s080_ep4_score75.gif
+AGGREGATE: {"episodes": 4, "mean": 130.0, "min": 75.0, "max": 161.0, "scores": [150.0, 134.0, 161.0, 75.0], "mean_act_ms": 1118.6999999999998, "unparsed": 4}
+=== [Sun Nov 22 04:41:23 CST 2026] high_s080 rc=0 ===
+=== [Sun Nov 22 04:41:23 CST 2026] EVAL high_s120 slow=1.20 ===
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+loading GameScaling-0.8B-S3 (device=cuda, history=5, reasoning=False, adapter=/root/DinoRL/results/sft_lora_dqn_ep1.bak) ...
+Loading weights:   0%|                                                                                          | 0/474 [00:00<?, ?it/s]Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████| 474/474 [00:00<00:00, 8545.82it/s]
+=== episode 1/4 seed=20271015 ===
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+    decision 50: score=85 frames=600 last_act=6931ms
+{"seed": 20271015, "score": 128.0, "game_frames": 888, "decisions": 74, "total_reward": 87.27, "terminal": "collision", "wall_s": 1460.1, "mean_act_ms": 2835.0, "max_act_ms": 6967.4, "unparsed": 1, "gif": "/root/DinoRL/results/high_s120_ep1_score128.gif"}
+    -> /root/DinoRL/results/high_s120_ep1_score128.gif
+=== episode 2/4 seed=20271016 ===
+{"seed": 20271016, "score": 80.0, "game_frames": 567, "decisions": 48, "total_reward": 55.32, "terminal": "collision", "wall_s": 906.8, "mean_act_ms": 2638.5, "max_act_ms": 7054.1, "unparsed": 1, "gif": "/root/DinoRL/results/high_s120_ep2_score80.gif"}
+    -> /root/DinoRL/results/high_s120_ep2_score80.gif
+=== episode 3/4 seed=20271017 ===
+    decision 50: score=85 frames=600 last_act=1124ms
+{"seed": 20271017, "score": 93.0, "game_frames": 652, "decisions": 55, "total_reward": 63.78, "terminal": "collision", "wall_s": 956.0, "mean_act_ms": 2459.3, "max_act_ms": 7278.3, "unparsed": 1, "gif": "/root/DinoRL/results/high_s120_ep3_score93.gif"}
+    -> /root/DinoRL/results/high_s120_ep3_score93.gif
+=== episode 4/4 seed=20271018 ===
+{"seed": 20271018, "score": 58.0, "game_frames": 420, "decisions": 35, "total_reward": 40.7, "terminal": "collision", "wall_s": 603.4, "mean_act_ms": 2304.9, "max_act_ms": 6120.1, "unparsed": 1, "gif": "/root/DinoRL/results/high_s120_ep4_score58.gif"}
+    -> /root/DinoRL/results/high_s120_ep4_score58.gif
+AGGREGATE: {"episodes": 4, "mean": 89.75, "min": 58.0, "max": 128.0, "scores": [128.0, 80.0, 93.0, 58.0], "mean_act_ms": 2559.425, "unparsed": 4}
+=== [Sun Nov 22 05:47:42 CST 2026] high_s120 rc=0 ===
+=== [Sun Nov 22 05:47:42 CST 2026] EVAL high_s200 slow=2.00 ===
+CPU mode. Run training, evaluation, and demo cells individually.
+Game folder: /root/DinoRL/t-rex-runner-gh-pages
+loading GameScaling-0.8B-S3 (device=cuda, history=5, reasoning=False, adapter=/root/DinoRL/results/sft_lora_dqn_ep1.bak) ...
+Loading weights:   0%|                                                                                          | 0/474 [00:00<?, ?it/s]Loading weights:  67%|████████████████████████████████████████████████████▍                         | 319/474 [00:00<00:00, 3189.62it/s]Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████| 474/474 [00:00<00:00, 4479.47it/s]
+=== episode 1/3 seed=20271015 ===
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+    decision 50: score=85 frames=600 last_act=1050ms
+{"seed": 20271015, "score": 138.0, "game_frames": 954, "decisions": 80, "total_reward": 93.83, "terminal": "collision", "wall_s": 2082.6, "mean_act_ms": 1312.3, "max_act_ms": 5483.8, "unparsed": 1, "gif": "/root/DinoRL/results/high_s200_ep1_score138.gif"}
+    -> /root/DinoRL/results/high_s200_ep1_score138.gif
+=== episode 2/3 seed=20271016 ===
+    decision 50: score=85 frames=600 last_act=1254ms
+{"seed": 20271016, "score": 142.0, "game_frames": 983, "decisions": 82, "total_reward": 96.71, "terminal": "collision", "wall_s": 2250.2, "mean_act_ms": 1626.4, "max_act_ms": 4840.5, "unparsed": 1, "gif": "/root/DinoRL/results/high_s200_ep2_score142.gif"}
+    -> /root/DinoRL/results/high_s200_ep2_score142.gif
+=== episode 3/3 seed=20271017 ===
+{"seed": 20271017, "score": 49.0, "game_frames": 364, "decisions": 31, "total_reward": 35.13, "terminal": "collision", "wall_s": 832.0, "mean_act_ms": 1676.3, "max_act_ms": 4422.0, "unparsed": 1, "gif": "/root/DinoRL/results/high_s200_ep3_score49.gif"}
+    -> /root/DinoRL/results/high_s200_ep3_score49.gif
+AGGREGATE: {"episodes": 3, "mean": 109.66666666666667, "min": 49.0, "max": 142.0, "scores": [138.0, 142.0, 49.0], "mean_act_ms": 1538.3333333333333, "unparsed": 3}
+=== [Sun Nov 22 07:14:25 CST 2026] high_s200 rc=0 ===
+=== [Sun Nov 22 07:14:25 CST 2026] HIGH SLOW DONE ===
